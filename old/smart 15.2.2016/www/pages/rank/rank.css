@@ -1,0 +1,147 @@
+	.global_page_rank{
+	width:100%;
+	height:100%;
+}
+.rank{
+	height:100%;
+	width:100%;
+	/*background:white;*/
+	/*background:url('../../images/rank/rankBg.jpg');*/
+	background-size:100% auto;
+	position: relative;
+	float:left;
+}
+.rank_title{
+	width:600px;
+	font-weight: bold;
+	border-radius: 10px;
+	font-size:18px;
+	text-decoration: underline;
+	padding:10px 0px 10px 0px;
+	color:#1e798e; 
+	background:rgba(255,255,255,0.9);
+	text-align: center;
+	margin-left:-250px;
+	margin-top:30px;
+	position: relative;
+	float:left;
+	left:50%;
+}
+.rank_table{
+	width:600px;
+	border-radius: 10px;
+	padding:20px 0px 20px 0px;
+	background:rgba(255,255,255,0.9);
+	text-align: center;
+	margin-left:-250px;
+	margin-top:15px;
+	position: relative;
+	float:left;
+	left: 50%;
+}
+.rank_table_row{
+	width:80%;
+	margin:0px 10%;
+	float:left;
+}
+.rank_table_row1{
+	display: none;
+}
+.rank_table_row_liHeader{
+	width:32%;
+	padding:5px 0px;
+	color:#1e798e;
+	font-weight: bold;  
+	border-top:1px black solid;
+	border-left:1px black solid;
+	border-bottom:1px black solid;
+	float:left;
+}
+.rank_table_row_li{
+	width:32%;
+	padding:5px 0px;
+	color:black;
+	border-left:1px black solid;
+	border-bottom:1px black solid;
+	float:left;
+}
+.rank_table_row_liHeader:last-child{
+	border-right:1px black solid;
+}
+.rank_table_row_li:last-child{
+	border-right:1px black solid;
+}
+.rank_yourRank{
+	width:600px;
+	border-radius: 10px;
+	font-size:18px;
+	/*text-decoration: underline;*/
+	padding:10px 0px 10px 0px;
+	background:rgba(255,255,255,0.9);
+	text-align: center;
+	margin-left:-250px;
+	margin-top:15px;
+	position: relative;
+	float:left;
+	left:50%;
+}
+.rank_yourRank span{
+	font-weight: bold;
+	color:#1e798e; 
+}
+.rank_table_row_li_userName{
+	cursor: pointer;
+	transition:0.5s all;
+}
+.rank_table_row_li_userName:hover{
+	text-decoration: underline;
+	color:#1e798e;
+}
+.rank_yourRank_row{
+    width:100%;
+    position: relative;
+    float:left;
+}
+.rank_mission6_text{
+	width: 320px;
+    direction: rtl;
+    text-align:center;
+	display: none;
+	padding:10px;
+	color:#1e798e;
+	background: rgba(255,255,255,0.9);
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.17);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	transition: all 0.5s ease-in;
+    margin-left:-20px;
+	position: fixed;
+	top: 342px;
+    left:50%;
+    z-index: 1000001;
+}
+.rank_mission6_text:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: -10px;
+	left: 15px;	    
+	border-width: 10px 10px 0px 10px;
+	border-style: solid;
+	border-color: #fff transparent;
+}
+.rank_mission6_text_submit{
+    width:60px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding:5px; 
+    font-size:18px;
+    background:#1e798e;
+    color:white;
+    margin-top:20px;
+    margin-left:-30px;
+    position: relative;
+    float:left;
+    left:50%;
+}

@@ -1,0 +1,543 @@
+
+.company_new {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    z-index: 10000;
+    overflow: hidden;
+    z-index: 2;
+    display: none;
+}
+
+.company_new input {
+    font-family: 'Open Sans Hebrew', sans-serif;
+    width: 250px;
+    position: relative;
+    float: left;
+    left: 50%;
+    margin-left: -125px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.company_new_bg {
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.6;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    cursor: pointer;
+}
+
+.company_new_holder {
+    width: 800px;
+    height: 320px;
+    background: #f8f6f6;
+    z-index: 3;
+    text-align: right;
+    padding-right: 50px;
+    padding-left: 50px;
+    direction: rtl;
+    font-size: 18px;
+    margin-top: -160px;
+    margin-left: -250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.company_new_holder_close {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: 0.3s all;
+}
+
+.company_new_holder_close:hover {
+    color: #1e798e;
+}
+
+.company_new_holder_data {
+    margin-top: 5px;
+}
+
+.company_new_holder_title {
+    width: 100%;
+    color: #1e798e;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.company_new_holder_imageHolder {
+    margin-left: 25px;
+    height: 200px;
+    width: 100px;
+    float: right;
+    margin-top: -88px;
+}
+
+.company_new_holder_image {
+    max-width: 100%;
+    position: relative;
+    float: right;
+    margin-left: 25px;
+}
+
+.company_new_holder_time {
+    width: 100%;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    float: left;
+}
+
+.company_new_holder_time span {
+    color: #1e798e;
+}
+
+.company_new_holder_accept {
+    width: 130px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 3px;
+    background: #1e798e;
+    color: #f8f6f6;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: -50px;
+    position: relative;
+    float: left;
+    left: 50%;
+    margin-top: 40px;
+}
+
+.company_new_holder_input {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+/* new company code*/
+.company {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: block;
+    z-index: 10000;
+    overflow: hidden;
+}
+
+#company_exit_button {
+    float: right;
+    font-size: 22px;
+    margin-top: -15px;
+    right: 7px;
+    position: inherit;
+    transition: 0.5s all;
+}
+
+#company_exit_button:hover {
+    color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.company_bg {
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    cursor: pointer;
+}
+
+.company_holder {
+    width: 800px;
+    float: left;
+    padding: 22px;
+    background: #fff;
+    margin-left: -400px;
+    position: absolute;
+    left: 50%;
+    display: block;
+    z-index: 3;
+    top: 22%;
+    height: 550px;
+}
+
+.company_holder_title {
+    width: 100%;
+    color: #1e798e;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+}
+
+.company_img {
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 14%;
+    margin-top: -120px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #1e798e;
+    background-color: white;
+    margin-left: -100px;
+    position: relative;
+    float: left;
+    left: 50%;
+}
+
+.company_holder_name_taagid {
+
+    width: 100%;
+    float: left;
+    text-align: center;
+    left: 50%;
+    height: 100px;
+
+}
+
+.company_holder_name_taagid:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    float: left;
+    left: 0;
+    border-color: gainsboro;
+    border-top-style: solid;
+    height: 95px;
+}
+
+.company_name {
+    margin-top: 6px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.company_holder_numbers_details:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    float: left;
+    left: 0;
+    border-color: gainsboro;
+    border-bottom-style: solid;
+    top: 315px;
+}
+
+.company_name_taagid:hover {
+    cursor: pointer;
+}
+
+.company_holder_numbers_details {
+
+    width: 100%;
+    left: 0%;
+    text-align: center;
+    padding-top: 146px;
+    height: 160px;
+}
+
+.company_holder_details {
+    width: 33%;
+    position: relative;
+    float: right;
+}
+
+.company_holder_details_title {
+    font-weight: 600;
+    color: dimgrey;
+    font-size: larger;
+}
+
+.company_holder_details_circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border-style: solid;
+    border-color: #1e798e;
+    border-width: 4px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 76px;
+    font-size: x-large;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow: hidden;
+    font-size: 1.3em;
+}
+
+.company_holder_down_buttons {
+    height: 120px;
+    margin-top: 52px;
+    background-color: white;
+    width: 394px;
+    margin-left: -22px;
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: gainsboro;
+}
+
+#company_holder_send_massage_button {
+    border-radius: 3px;
+    margin-top: 40px;
+    margin-right: -90px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #1e798e;
+    text-align: center;
+    color: white;
+    padding: 3px;
+    position: relative;
+    float: left;
+    left: 230px;
+}
+
+.company_table_head_colum {
+    background-color: rgb(201, 213, 223);
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.company_table {
+    /*display: table-row;*/
+    line-height: 35px;
+    top: 332px;
+
+}
+
+.company_table_title {
+    /*display: table-caption;*/
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
+.company_table_row, .company_table_head_colum {
+    display: block;
+    /* line-height: 35px; */
+    position: relative;
+    /* padding-right: 22px; */
+    /* display: none; */
+    float: right;
+    width: 100%;
+
+}
+
+.company_table_row {
+    display: none;
+}
+
+.company_cell_table {
+    width: 20%;
+    position: relative;
+    float: left;
+    text-align: center;
+
+}
+
+.company_table_row .company_cell_table {
+    height: 40px;
+    line-height: 35px;
+    vertical-align: middle;
+    border-bottom: 1px solid #aaa;;
+    margin: 5px 0px;
+}
+
+
+.company_cell_table_action_userNotAdmin_sendMsg {
+    background: #1e798e;
+    cursor: pointer;
+    padding-bottom: -19px;
+    padding-top: -22px;
+    position: relative;
+    color: white;
+    border: 1px solid #1e798e;
+    padding: -7px;
+    display: inline;
+    padding-bottom: -18px;
+    padding: 2px 4px 2px 4px;
+
+}
+
+.company_cell_table_action_userIsAdmin_sendMsg {
+    display: inline;
+    padding: 1px 1px 1px 1px;
+    background: #1e798e;
+    cursor: pointer;
+    /* display: none; */
+    color: white;
+    margin-right: -28px;
+    margin-left: 4px;
+    border: 1px solid #1e798e;
+}
+
+.company_cell_table_action_userIsAdmin_removeUser {
+    background: #f15a22;
+    display: inline;
+    cursor: pointer;
+    padding: 1px 1px 1px 1px;
+    color: white;
+    border: 1px solid #f15a22;
+}
+
+.company_table_rows {
+    display: inline-block;
+    overflow-y: scroll;
+    height: 170px;
+}
+.company_cell_table_action_userIsAdmin , .company_cell_table_action_userNotAdmin {
+    display: none;
+}
+/*.company_cell_table_action_userIsAdmin {*/
+    /*background: red;*/
+/*}*/
+
+.company_holder_rank_circle_hover {
+    width: 170px;
+    display: none;
+    color: #1e798e;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in;
+    position: absolute;
+    top: 128px;
+    right: -24px;
+    z-index: 2;
+}
+
+.company_holder_rank_circle_hover:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 145px;
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.1) transparent;
+}
+
+.company_holder_rank_circle_hover:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 147px;
+    border-width: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: #fff transparent;
+}
+
+.company_holder_profit_circle_hover {
+    width: 170px;
+    display: none;
+    color: #1e798e;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in;
+    position: absolute;
+    top: 128px;
+    right: -24px;
+    z-index: 2;
+}
+
+.company_holder_profit_circle_hover:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 145px;
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.1) transparent;
+}
+
+.company_holder_profit_circle_hover:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 147px;
+    border-width: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: #fff transparent;
+}
+
+.company_holder_userNumber_circle_hover {
+    width: 170px;
+    display: none;
+    color: #1e798e;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in;
+    position: absolute;
+    top: 128px;
+    right: -24px;
+    z-index: 2;
+}
+
+.company_holder_userNumber_circle_hover:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 145px;
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.1) transparent;
+}
+
+.company_holder_userNumber_circle_hover:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 147px;
+    border-width: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: #fff transparent;
+}
+
+.company_holder_details_circle:hover .company_holder_rank_circle_hover {
+    display: block;
+}
+
+.company_holder_details_circle:hover .company_holder_profit_circle_hover {
+    display: block;
+}
+
+.company_holder_details_circle:hover .company_holder_userNumber_circle_hover {
+    display: block;
+}

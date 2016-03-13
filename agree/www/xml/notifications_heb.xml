@@ -1,0 +1,51 @@
+<root>
+	<leaf name="notifications_textType_1">סכסוך חדש לטיפולך!</leaf>
+	<leaf name="notifications_textType_2">לתשומת לבך: ניתן לקרוא את הסיפור של הצד השני ולהתחיל בתהליך</leaf>
+	<leaf name="notifications_textType_3">לתשומת לבך: $1234 שלח את התייחסותו לפנייה לקהל</leaf>
+	<leaf name="notifications_textType_4">כל הכבוד ! ההצעה שהצעת נבחרה על ידי $1234, קיבלת 5 נקודות</leaf>
+	<leaf name="notifications_textType_5">כל הכבוד ! ההצעה שהצעת משמשת בסיס להסכם, קיבלת 10 נקודות</leaf>
+    <leaf name="notifications_textType_6">לתשומת לבך: קיים סכסוך המחכה לפנייתך</leaf>
+    <leaf name="notifications_textType_7">יש הצעה ראשונה מהקהל</leaf>
+    <leaf name="notifications_textType_8">לתשומת לב: יש כבר יותר מ-5 הצעות מהקהל לפתרון המחלוקת של $1234 ו$1235</leaf>
+    <leaf name="notifications_textType_9">לתשומת לב: יש כבר יותר מ-10 הצעות מהקהל לפתרון המחלוקת של $1234 ו$1235</leaf>
+    <leaf name="notifications_textType_10">לתשומת לבך: $1234 בחר הצעה, ו$1235 עדיין לא</leaf>
+    <leaf name="notifications_textType_11">התפתחות חשובה: שני הצדדים בחרו הצעה</leaf>
+    <leaf name="notifications_textType_12">התפתחות חשובה: שני הצדדים בחרו באותה הצעה! ניתן לסיים את המחלוקת</leaf>
+    <leaf name="notifications_textType_13">התפתחות חשובה: $1234 הסכים</leaf>
+    <leaf name="notifications_textType_14">התפתחות חשובה: גם $1234 הסכים</leaf>
+    <leaf name="notifications_textType_15">לתשומת לבך: ישנן הודעות חדשות בצ'אט הפרטי עם $1234</leaf>
+    <leaf name="notifications_textType_16">לתשומת לבך: ישנן הודעות חדשות בצ'אט הכללי</leaf>
+    
+    <leaf name="notifications_textType_100">
+        תודה על ההצבעה הראשונה שלך! 
+        כל הצבעה תזכה אותך בנקודה אחת
+    </leaf>
+    <leaf name="notifications_textType_101">כל הכבוד ! הצעה שהצעת נבחרה על ידי מוטי, קיבלת 20 נקודות</leaf>
+    <leaf name="notifications_textType_102">כל הכבוד ! הצעה שהצעת נבחרה על ידי שני הצדדים, קיבלת 50 נקודות</leaf>
+    <leaf name="notifications_textType_103">כל הכבוד ! הצעה שהצעת משמשת בסיס להסכם, קיבלת 35 נקודות</leaf>
+    <leaf name="notifications_textType_104">כל הכבוד | הצעת הצעה לפתרון סכסוך | צברת 5 נקודות | עד כה יש לך xxX נקודות</leaf>
+    <leaf name="notifications_textType_105">כל הכבוד | הצבעת ל-5 הצעות לפתרון סכסוך | צברת 5 נקודות וקבל עוד 5 מאיתנו | עד כה יש לך xxX נקודות</leaf>
+
+    <leaf name="notifications_textType_200">כל הכבוד ! צברת xxX נקודות והגעת לדירוג של פטיש שופטים</leaf>
+    <leaf name="notifications_textType_201">כל הכבוד ! צברת xxX נקודות והגעת לדירוג של מאזני צדק</leaf>
+    <leaf name="notifications_textType_202">כל הכבוד ! צברת xxX נקודות והגעת לדירוג של פאת שופטים</leaf>
+    
+	<leaf name="notifications_offered_solution">הצע פתרון הסכסוך, זכית ב</leaf>
+	<leaf name="notifications_offered_solution_part2">נקודת חדשות</leaf>
+	<leaf name="notifications_won_a_wig">זכית בפאה על הישגיך</leaf>
+	<leaf name="notifications_title">הודעות</leaf>
+	<leaf name="notifications_no_messages">ברגע שתתחילו להיות בעניינים, במסך הזה יופיעו הודעות :)</leaf>
+	<leaf name="notifications_published">פורסם</leaf>
+	<leaf name="notifications_now">עכשיו</leaf>
+	<leaf name="notifications_half_hour">לפני כחצי שעה</leaf>
+	<leaf name="notifications_hour">לפני כשעה</leaf>
+	<leaf name="notifications_2_hours">לפני כשעתיים</leaf>
+	<leaf name="notifications_3_hours">לפני כ3 שעות</leaf>
+	<leaf name="notifications_4_hours">לפני כ4 שעות</leaf>
+	<leaf name="notifications_24_hours">היום</leaf>
+	<leaf name="notifications_this_week">השבוע</leaf>
+	<leaf name="notifications_2_weeks">לפני כשבועיים</leaf>
+	<leaf name="notifications_this_month">החודש</leaf>
+	<leaf name="notifications_more_than_month">לפני יותר מחודש</leaf>
+	<leaf name="notifications_points_won_label">נקודות</leaf>
+</root>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html manifest="/www/mani.manifest">
+	<head>
+		<script src="version1/include/jquery2.1.4.js"></script>
+		<script src="version1/js.js"></script>		
+		<script src="version1/include/jquery.cookie.js"></script>
+
+		<link rel="stylesheet" href="version1/style.css">	
+		
+		<link rel="stylesheet" href="version1/include/bootstrap/css/bootstrap-theme.css">
+		<link rel="stylesheet" href="version1/include/bootstrap/css/bootstrap.css">
+		
+		<!-- start Mixpanel --><script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+		for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+		mixpanel.init("fdd46b65a98d92b0f68d5229970d09d1");</script><!-- end Mixpanel -->
+		
+		<!-- google analitic -->	
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		ga('create', 'UA-71270622-1', 'auto');
+		ga('send', 'pageview');
+		</script>
+        
+        <!-- Hotjar Tracking Code for http://besmarter.co.il -->
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:142486,hjsv:5};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
+        
+        <!-- Facebook Pixel Code -->
+        <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '1712746788941850');
+        fbq('track', "PageView");</script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1712746788941850&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+	</head>
+	<body>
+		<img src="version1/images/bg.jpg" class="lp_background">
+		<div class="lp">
+			<img src="version1/images/logo.png" class="lp_logo" alt="">
+			<div class="lp_mainTitle">?האם אתה מסוגל להפוך למיליארדר</div>
+			<div class="lp_smallTitle">קבל מיליון שקל ותבחר היכן להשקיע את הכסף שלך</div>
+			<div class="lp_registerBtn">!הרשם והתחל לשחק</div>
+			
+			<div class="lp_popup">
+				<div class="lp_popup_title">!הרשם, קבל מיליון שקל והתחל לשחק</div>
+				<div class="lp_popup_flow">
+					<div class="lp_popup_flow_stage1 active">שלב 1</div>
+					<div class="lp_popup_flow_stage2">שלב 2</div>
+					<div class="lp_popup_flow_stage3">בשלב 3</div>
+				</div>
+				
+				<div class="lp_box1">
+					<input type="text" class="lp_input lp_input_userName" placeholder="שם המשתמש">
+					<div class="lp_box1_btn">
+						המשך
+						<div class="loading">
+							<div class="loading_bounce1"></div>
+							<div class="loading_bounce2"></div>
+							<div class="loading_bounce3"></div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="lp_box2">
+					<input class="lp_input lp_input_email" type="email" placeholder="כתובת מייל">
+					<div class="lp_box2_btn">
+						המשך
+						<div class="loading">
+							<div class="loading_bounce1"></div>
+							<div class="loading_bounce2"></div>
+							<div class="loading_bounce3"></div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="lp_box3">
+					<div class="lp_globalRow">
+						<input class="lp_input lp_input_pass1" type="password" placeholder="סיסמא">
+					</div>
+					<div class="lp_globalRow">
+						<input class="lp_input lp_input_pass2" type="password" placeholder="הקלד שוב את הסיסמא">
+					</div>
+					<div class="lp_globalRow">
+						<div class="lp_box3_btn">
+							הרשם
+							<div class="loading loading3">
+								<div class="loading_bounce1"></div>
+								<div class="loading_bounce2"></div>
+								<div class="loading_bounce3"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="lp_box4">
+					<div class="lg_box4_title">מייל נשלח אליך, אנא בדוק את המייל והכנס את הסיסמה שקיבלת.</div>
+					<div class="lg_box4_subTitle">הזן את הסיסמה שקיבלת במייל:</div>
+					<div class="lp_globalRow">
+						<input class="lp_input lp_input_emailCheck" type="text" placeholder="סיסמה">
+					</div>
+					<div class="lp_globalRow">
+						<div class="lp_box4_btn">
+							אישור הרשמה
+							<div class="loading loading3">
+								<div class="loading_bounce1"></div>
+								<div class="loading_bounce2"></div>
+								<div class="loading_bounce3"></div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="lp_globalRow">
+						<div class="lg_box4_mailNotGet">
+							<div class="lg_box4_mailNotGetHolder">
+								לא קיבלת את המייל?
+								<span class="glyphicon glyphicon-chevron-up"></span>
+							</div>
+						</div>
+						<div class="lg_box4_mail">
+							<div class="lg_box4_mail_holder">
+								<div class="lg_box4_mail_text"><!-- email --></div>
+								:המייל שהזנת
+							</div>
+							<div class="lp_globalRow">
+								<input class="lp_input lp_input_changeEmail" type="text" placeholder="הכנס מייל חדש">
+							</div>
+							<div class="lg_globalRow">
+								<div class="lp_submitNewMail">שלח</div>
+							</div>
+						</div>
+						<div class="lg_globalRow">
+							<div class="lg_box4_mail_success">!המייל נשלח אליך בהצלחה</div>
+						</div>
+					</div>
+				</div>
+				<div class="lp_alert"></div>
+			</div>
+			
+		</div>
+	</body>
+</html>

@@ -1,0 +1,138 @@
+/* PROCESS BAR */
+.progressBar {
+    margin: 80px auto;
+    width: 241px;
+    text-align: center;
+    position: fixed;
+    top:50px;
+}
+.progressBar_rank {
+    left: 100%;
+    top: 12px;
+    width: 50px;
+    height: 50px;
+    border-radius: 66px;
+    border: 4px double #ccc;
+    font-size: 23px;
+    font-weight: 600;
+    color: #666;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    position: absolute;
+    background: #BA9;
+}
+.progressBar_title {
+    width:241px;
+    padding-bottom: 2px;
+    color: #1e798e;
+    font-size: 16px;
+    font-weight: 400;
+    text-align:right;
+}
+.progressBar_progressHolder {
+    padding: 4px;
+    background: rgba(0, 0, 0, 0.25) ;
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    position: relative;
+    left:10px;
+    z-index: -1;
+}
+.progressBar_progress {
+    opacity: 0.8;
+    position: relative;
+    height: 18px;
+    border-radius: 4px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25), inset 0 1px rgba(255, 255, 255, 0.1);
+}
+.progressBar_progress:before {
+    bottom: 0;
+    background: url("/www/images/mentor/progressBar.png") 0 0 repeat;
+    border-radius: 4px 4px 0 0;
+}
+.progressBar_progress:before, .progressBar_progress:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#percentage_input {
+    margin-bottom: 10px;
+}
+.progressBar_progressHolder_hover {
+    width: 145px;
+    display: none;
+    line-height: 32px;
+    color: #1e798e;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in;
+    position: absolute;
+    top: 60px;
+    right: -18px;
+    z-index: 2;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.progressBar_progressHolder_hover:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 13px;
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.1) transparent;
+}
+.progressBar_progressHolder_hover:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 15px;
+    border-width: 0 6px 6px 6px;
+    border-style: solid;
+    border-color: #fff transparent;
+}
+.progressBar_progressHolder:hover .progressBar_progressHolder_hover {
+    display: block;
+}
+.progressBar_progressHolder_bonus{
+     font-size: 19px;
+    font-weight: 400;
+    border-top: 1px solid gray;
+}
+.progressBar_progressHolder_bonus_num {
+    color: #f15a22;
+    font-size: 21px;
+    font-weight: 400;
+}
+.progressBar_percentage {
+    width: 100%;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 0.5s ease-in;
+    position: absolute;
+    top:-2px;
+}

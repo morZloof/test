@@ -1,0 +1,176 @@
+<div class="users_header">
+	<div class="users_header_menu users_header_menuClick">רשימת משתמשים</div>
+	<div class="users_header_menu">הוספת משתמש</div>
+	<div class="users_header_menu_sort">
+		<div class="users_header_menu_sort_text">:מיון</div>
+		<select class="users_header_menu_sort_input">
+			<option value="all">הכל</option>
+			<option value="1">הרשאת על</option>
+			<option value="2">צוות המשרד</option>
+			<option value="3">מדריך</option>
+		</select>
+	</div>
+</div>
+
+<div class="users_deleteUsers">
+	<div class="users_deleteUsers_header">
+		<div class="users_deleteUsers_header_text">מחיקת משתמש</div>
+		<div class="users_deleteUsers_header_close">
+			<span class="glyphicon glyphicon-remove"></span>
+		</div>
+	</div>
+	<div class="users_deleteUsers_id" style="display:none"><!-- id --></div>
+	<div class="users_deleteUsers_text" dir="rtl">
+		האם אתה בטוח שאתה רוצה למחוק את המשתמש
+		<br>
+		<span><!-- user name --></span>
+	</div>
+	<div class="global_row">
+		<div class="users_deleteUsers_row">
+			<div class="users_deleteUsers_loader"></div>
+			<div class="users_deleteUsers_delete">מחיקה</div>
+			<div class="users_deleteUsers_cancel">ביטול</div>
+			<div class="users_add_loader"></div>
+		</div>
+	</div>
+</div>
+
+<div class="users_body">
+	<div class="global_row">
+		<div class="users_body_header">
+			<div class="users_body_header_menu">
+				<div class="users_body_header_menu_span1"><span class="glyphicon glyphicon-chevron-down"></span></div>
+				<div class="users_body_header_menu_span2"><span class="glyphicon glyphicon-chevron-up"></span></div>
+				שם מלא
+				<span>name</span>
+				<span>true</span>
+			</div>
+			<div class="users_body_header_menu">
+				<div class="users_body_header_menu_span1"><span class="glyphicon glyphicon-chevron-down"></span></div>
+				<div class="users_body_header_menu_span2"><span class="glyphicon glyphicon-chevron-up"></span></div>
+				אימייל
+				<span>email</span>
+				<span>true</span>
+			</div>
+			<div class="users_body_header_menu users_body_header_menu1">
+				<div class="users_body_header_menu_span1"><span class="glyphicon glyphicon-chevron-down"></span></div>
+				<div class="users_body_header_menu_span2"><span class="glyphicon glyphicon-chevron-up"></span></div>
+				סטאטוס
+				<span>firstTime</span>
+				<span>true</span>
+			</div>
+			<div class="users_body_header_menu users_body_header_menu1">
+				<div class="users_body_header_menu_span1"><span class="glyphicon glyphicon-chevron-down"></span></div>
+				<div class="users_body_header_menu_span2"><span class="glyphicon glyphicon-chevron-up"></span></div>
+				סוג משתמש
+				<span>admin</span>
+				<span>true</span>
+			</div>
+			<div class="users_body_header_menu users_body_header_menu1">
+				עריכה
+				<span></span>
+				<span>true</span>
+			</div>
+		</div>
+		<div class="users_body_rowsAll">
+			<div class="users_body_rowsAll_row">
+				<div class="users_body_rowsAll_li"><!-- name --></div>
+				<div class="users_body_rowsAll_li"><!-- email --></div>
+				<div class="users_body_rowsAll_liTwo users_body_rowsAll_liTwoMiddle"><!-- email --></div>
+				<div class="users_body_rowsAll_liTwo users_body_rowsAll_liTwoMiddle"><!-- kind --></div>
+				<div class="users_body_rowsAll_id" style="display:none"><!-- id --></div>
+				<div class="users_body_rowsAll_pass" style="display:none"><!-- password --></div>
+				<div class="users_body_rowsAll_name" style="display:none"><!-- name --></div>
+				<div class="users_body_rowsAll_L_name" style="display:none"><!-- L_name --></div>
+				<div class="users_body_rowsAll_district" style="display:none"><!-- id --></div>
+				<div class="users_body_rowsAll_school" style="display:none"><!-- id --></div>
+				<div class="users_body_rowsAll_class" style="display:none"><!-- id --></div>
+				<div class="users_body_rowsAll_liTwo">
+					<div class="users_body_rowsAll_li_edit">עריכה</div>
+					<div class="users_body_rowsAll_li_delete">מחיקה</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="users_add">
+	<div class="global_row" dir='rtl'>
+		<div class="users_add_title"><u>הוספת משתמש</u></div>
+		<div class="global_row">
+			<div class="users_add_rows">
+				<div class="users_add_rows_name">שם פרטי:</div>
+				<input type="text" class="users_add_rows_input" placeHolder="שם מלא">
+			</div>
+			<div class="global_row">
+				<div class="users_add_rows">
+					<div class="users_add_rows_name">שם משפחה:</div>
+					<input type="text" class="users_add_rows_input" placeHolder="שם מלא">
+				</div>
+			</div>
+		</div>
+		<div class="global_row">
+			<div class="users_add_rows">
+				<div class="users_add_rows_name">מחוז:</div>
+				<!--<input type="text" class="users_add_rows_input" placeHolder="מחוז">-->
+				<select class="users_add_rows_input">
+					<option value="צפון">צפון</option>
+					<option value="דרום">דרום</option>
+					<option value="מרכז">מרכז</option>
+				</select>
+			</div>	
+		</div>
+		<div class="global_row">
+			<div class="users_add_rows">
+				<div class="users_add_rows_name">בית ספר:</div>
+				<input type="text" class="users_add_rows_input" placeHolder="בית ספר">
+			</div>	
+		</div>
+		<div class="global_row">
+			<div class="users_add_rows">
+				<div class="users_add_rows_name">כיתה:</div>
+				<input type="text" class="users_add_rows_input" placeHolder="כיתה">
+			</div>	
+		</div>
+		<div class="global_row">
+			<div class="users_add_rows">
+				<div class="users_add_rows_name">אימייל:</div>
+				<input type="text" class="users_add_rows_input" placeHolder="אימייל" dir="ltr">
+			</div>
+		</div>
+		<div class="users_add_rows_id"  style="display:none"></div>
+		<div class="global_row">
+			<div class="users_add_rows">
+				<div class="users_add_rows_name">סיסמה:</div>
+				<input type="text" class="users_add_rows_input" placeHolder="סיסמה">
+			</div>
+		</div>
+		<div class="global_row">
+			<div class="users_add_rows users_add_rows_last">
+				<div class="users_add_rows_name">הרשאה:</div>
+				<select class="users_add_rows_input users_add_rows_input1">
+				  <option value="1">הרשאת על</option>
+				  <option value="2">צוות המשרד</option>
+				  <option value="0">מדריך</option>
+				</select>
+			</div>
+		</div>
+		<div class="globl_row">
+			<div class="users_add_rows">
+				<div class="users_add_submit">הוספה</div>
+				<div class="users_add_edit">עריכה</div>
+				<div class="users_add_loader"></div>
+				<div class="users_add_ok">
+					<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+				</div>
+				<div class="users_add_error users_add_error1">
+					המייל כבר קיים במערכת<br>
+					אנא בחר מייל אחר
+				</div>
+				<div class="users_add_error users_add_error2">
+					חובה למלא את כל השדות במערכת<br>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

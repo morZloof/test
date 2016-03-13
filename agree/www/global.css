@@ -1,0 +1,20 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin:0px;
+	font-family: Arial;
+	background-size:cover;
+}
+.global_row{
+	width:100%;
+	float:left;
+}
+.global_hide{
+	display:none;
+}
+@font-face {
+    font-family: Almoni;
+    src: url('../../fonts/almoni-dl-aaa-web/font_files/almoni-dl-aaa-400.woff');
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);

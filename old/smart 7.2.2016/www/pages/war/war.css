@@ -1,0 +1,452 @@
+.war{
+    min-height: 20px;
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+    margin-right: 115px;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 168px;
+    right: 0px;
+    /*transition: 1s all;*/
+}
+.war_cont {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: left;
+    background: #fff;
+}
+.warHolder_goToMap{
+  cursor: pointer;
+  color: #1e798e;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: -27px;
+  left: -1px;
+  transition: 0.5s all;
+  background: white;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.warHolder_goToMap:hover{
+  color:#003466;
+}
+.war:before{
+  top:10px;
+  bottom:10px;
+  border-radius: 15px / 100px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+  right:0;
+  left:0;
+}
+.war:before, .war:after{
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  z-index: -2 ;
+}
+
+.warHolder_goToMap{  
+  cursor: pointer;
+  color: #1e798e;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: -27px;
+  left: -1px;
+  background: #f1edec;
+  transition: 0.5s all;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  z-index: -1;
+  
+}
+.warHolder_goToNotebook{
+  color: #1e798e;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: -27px;
+  left: 45px;
+  background: #f1edec;
+  transition: 0.5s all;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: default;
+  z-index: -1;
+}
+.warHolder_goToWar{
+  cursor: pointer;
+  color: #1e798e;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: -27px;
+  left: 98px;
+  transition: 0.5s all;
+  background: #fafafa;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.warHolder_goToMap:hover, .warHolder_goToWar:hover{
+  color:#003466;
+}
+.war_userCol , .war_enemyCol {
+    width: 48%;
+    height: 100%;
+    background: #fafafa;
+    position: relative;
+    float: right;
+    padding-right: 1.5%;
+}
+.war_enemyCol {
+  float:left; 
+}
+.war_title,.war_grid_title {
+  width: 100%;
+  text-align: center;
+}
+.war_cont {
+    display: none;
+}
+.war_holder {
+  width: 100%;
+  height: 100%;
+  background: #1e798e;
+  position: relative;
+  float: left;
+
+}
+.war_title {
+    color: #1b3664;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.war_grid_title {
+  font-size: 20px;
+}
+.war_grid_description {
+  width: 100%;
+  font-size: 20px;
+  position: relative;
+  float:right;
+  text-align: right;
+}
+.war_grid_description span{
+    color:#1e798e;
+}
+.war_grid_description span:after {
+    content:'₪'
+}
+.war_grid_descriptionEarn{
+    font-weight: bold;
+}
+.war_grid_resturantDescription{
+    margin-top:20px;
+    font-size:18px;
+}
+.war_grid_line {
+  width: 100%;
+  position: relative;
+  float:right;
+  margin-bottom: 15px;
+}
+.war_grid_line_oneElement { 
+  display: none;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  float:right;
+  margin-right: 5%;
+  border:1px solid black;
+  background: #f2f5f6; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  cursor: pointer;
+}
+.war_grid_line_oneElement:hover {
+   
+  background: #1e798e;
+
+}
+.war_grid_line_oneElementActive {
+      background: #1e798e;
+}
+.war_grid_line_oneElement_text {
+    text-align: center;
+}
+.war_grid_line_oneElement img {
+  width: 80px;
+  height: 83px;
+}
+.war_grid_factoryDetails {
+  float: right;
+  direction: rtl;
+}
+.war_grid_summ {
+  width: 100%;
+  position: relative;
+  float:right;
+  text-align: right;
+}
+ .war_userCol .war_grid_summ {
+     display: none;
+ }
+
+.war_userCol .war_grid_summ input[type=range]{
+    -webkit-appearance: none;
+    margin: 18px 0;
+    width: 50%;
+    margin: 0 auto;
+    margin-left: 10%;
+    margin-top: -15px;
+    position: relative;
+    float: left;
+    top:20px;
+}
+.war_userCol .war_grid_summ input[type=range]:focus {
+  outline: none;
+}
+.war_userCol .war_grid_summ input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #3071a9;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+.war_userCol .war_grid_summ input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -14px;
+}
+.war_userCol .war_grid_summ input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #367ebd;
+}
+.war_userCol .war_grid_summ input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: #3071a9;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+.war_userCol .war_grid_summ input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+.war_userCol .war_grid_summ input[type=range]::-ms-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+.war_userCol .war_grid_summ input[type=range]::-ms-fill-lower {
+  background: #2a6495;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+.war_userCol .war_grid_summ input[type=range]::-ms-fill-upper {
+  background: #3071a9;
+  border: 0.2px solid #010101;
+  border-radius: 2.6px;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+}
+.war_userCol .war_grid_summ input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+.war_userCol .war_grid_summ input[type=range]:focus::-ms-fill-lower {
+  background: #3071a9;
+}
+.war_userCol .war_grid_summ input[type=range]:focus::-ms-fill-upper {
+  background: #367ebd;
+}
+.war_grid_resturentIncome:after{
+    content: ' +'
+
+}
+.war_grid_factoryLevelColuc:after {
+    content: ' = ';
+}
+.war_grid_btn {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    float:left;
+    background: #1e798e;
+    color:#fff;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 5px;
+    left:50%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.war_grid_cancelBtn {
+    background: #f1453d;
+    margin-left: -200px;
+    
+}
+.war_startPage {
+    width: 100%;
+    position: relative;
+    float:left;
+    
+}
+
+.war_startPage_searchBox {
+  display: block;
+  position: relative;
+  width: 295px;
+  height: 30px;
+  float: right;
+  font-size: 20px;
+  top: 10px;
+  right: 10px;
+  text-align: right;
+  font-family: 'Open Sans Hebrew', sans-serif;
+  margin: 5px;
+  padding-right: 5px;
+}
+.war_startPage_searchBox_searchPlayer{
+    font-size: 20px;
+    border-radius: 3px;
+    background: #1e798e;
+    color: #f8f6f6;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+    position: relative;
+    margin: 15px 15px 5px 0px;
+    cursor: pointer;
+    padding: 0px 5px 0px 5px;
+    float: right;
+}
+.war_startPage_stickyNote_text,.war_startPage_stickyNote_player {
+    width: 260px;
+    position: relative;
+    float: right;
+    text-align: right;
+    top: 45px;
+    right: 20px;
+    direction: rtl;
+}
+.war_startPage_stickyNote_player {
+    display: none;
+}
+.war_startPage_stickyNote {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    float:left;
+    background: url('/www/images/war/sticky.png');
+}
+.war_startPage_users, .war_startPage_assets {
+    display: none;
+    position: relative;
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+}
+.war_startPage_users_title, .war_startPage_assets_buildings_title,.war_startPage_assets_clients_title {
+    width: 100%;
+    position: relative;
+    float:left;
+    text-align: center;
+    
+}
+.war_startPage_users_oneuser,.war_startPage_assets_resturents_oneBuilding,.war_startPage_assets_resturents_oneClient {
+    width: 51%;
+    height: 44px;
+    position: relative;
+    float: right;
+    text-align: right;
+    direction: rtl;
+    cursor: pointer;
+}
+.war_startPage_users_oneuser_name, .war_startPage_users_oneuser_rank, .war_startPage_users_oneuser_profit {
+    float:right;
+    line-height: 44px;
+    vertical-align: middle;
+}
+.war_startPage_users_oneuser span, .war_startPage_assets_resturents_oneBuilding span, .war_startPage_assets_resturents_oneClient span {
+    margin-left: 10px;
+}
+.war_startPage_users_oneuser:hover, .war_startPage_assets_resturents_oneBuilding:hover, .war_startPage_assets_resturents_oneClient:hover {
+    background: #1e798e;
+    color:#fff;
+}
+
+.war_startPage_assets_resturents_oneBuilding_type, .war_startPage_assets_resturents_oneBuilding_pic, .war_startPage_assets_resturents_oneBuilding_profit, .war_startPage_assets_resturents_oneBuilding_supplier, .war_startPage_assets_resturents_oneBuilding_street,  {
+    float:right;
+    line-height: 44px;
+    vertical-align: middle;
+}
+
+.war_startPage_assets_resturents_oneBuilding_type, .war_startPage_assets_resturents_oneBuilding_pic, .war_startPage_assets_resturents_oneBuilding_profit, .war_startPage_assets_resturents_oneBuilding_supplier, .war_startPage_assets_resturents_oneBuilding_street {
+    float:right;
+    line-height: 44px;
+    vertical-align: middle;
+}
+.war_startPage_assets_resturents_oneBuilding_pic,.war_startPage_assets_resturents_oneClient_pic {
+    width: 50px;
+    height: 50px;
+    top: -5px;
+    position: relative;
+    margin-left: 10px;
+}
+.war_startPage_assets_resturents_oneClient_type, .war_startPage_assets_resturents_oneClient_pic, .war_startPage_assets_resturents_oneClient_profit, .war_startPage_assets_resturents_oneClient_street, .war_startPage_assets_resturents_oneClient_client {
+    float:right;
+    line-height: 44px;
+    vertical-align: middle;
+}
+.war_startPage_assets_resturents_oneBuilding_street,.war_startPage_assets_resturents_oneClient_street {
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.war_grid_goBack {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    top: 0;
+}

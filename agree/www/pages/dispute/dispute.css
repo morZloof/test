@@ -1,0 +1,2869 @@
+@font-face {
+    font-family: Almoni;
+    src: url(../../fonts/almoni-dl-aaa-web/font_files/almoni-dl-aaa-400.woff);
+}
+
+body {
+	direction: rtl;
+	font-family: Almoni;
+}
+
+.dispute, .dispute_header,
+.dispute_column_section_content_chat_new_message,
+.dispute_column_section_content_available_options_new_option,
+.dispute_column_section_content_chat_new_message_btn,
+.dispute_column_section_content_chat_new_message_emotion_btn {
+	font-size: 16px;
+}
+
+.clear {
+	clear: both;
+}
+
+.dispute {
+	height: 590px;
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 35px;
+	position: relative;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.dispute_header {
+	background: url('../../images/dispute/dispute_header.jpg');
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #CCC;
+	position: relative;
+}
+
+.dispute button:focus, .dispute_header button:focus {
+	outline: 0;
+}
+
+.dispute_header_container {
+	width: 960px;
+	margin: 0 auto;
+	font-size: 20px;
+	height: 60px;
+	line-height: 60px;
+}
+
+.dispute_header_the_sides {
+	float: right;
+	width: 310px;
+	margin-left: 15px;
+	position: relative;
+}
+
+.dispute_header_the_sides_info {
+	background-color: #3B3C35;
+	opacity: 0.5;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px 2px 6px;
+    display: inline;
+    font-size: 11px;
+    line-height: 12px;
+    vertical-align: top;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    right: 62px;
+    top: 15px;
+    font-weight: bold;
+    font-family: 'Open Sans Hebrew';
+}
+
+.dispute_header_the_sides_info:hover {
+	background-color: #3B3C35;
+	color: #CBC92D;
+	opacity: 1;
+}
+
+.dispute_header_the_sides_label {
+	float: right;
+	width: 65px;
+	padding-left: 5px;
+}
+
+.dispute_header_the_sides_side {
+	float: right;
+	width: 110px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 0;
+	position: relative;
+	text-align: right;
+}
+
+.dispute_header_the_sides_feel {
+	line-height: 0px;
+	font-size: 14px;
+}
+
+.dispute_header_the_sides_feel_image {
+	float: right;
+	background-color: green;
+	line-height: 60px;
+	width: 45px;
+	height: 60px;
+	background: url('../../images/dispute/feelings/undecided.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.dispute_title_container {
+	float: right;
+	width: 310px;
+	margin-left: 15px;
+}
+
+.dispute_title_container .dispute_title {
+	font-weight: 900;
+}
+
+.dispute_header_feeling {
+	float: right;
+	width: 110px;
+}
+
+#dispute_header_feel, #dispute_header_feel1 {
+	margin-top: -90px;
+	cursor: pointer;
+}
+#dispute_header_feel1{
+    position: relative;
+    top:-15px;
+}
+.dispute_header_status_label{
+    position: relative;
+    top:-10px;
+}
+.dispute_header_status_label {
+	margin-top: -15px;
+	line-height: 0;
+	font-size: 16px;
+}
+
+.dispute_header_feeling_label span {
+	background: none;
+}
+
+.dispute_header_feeling_label span:hover {
+	background: none;
+}
+
+.dispute_header_feel_line {
+	width: 100%;
+	height: 3px;
+	background-color: #eb1424;
+	position: absolute;
+	bottom: -3px;
+	left: 0;
+}
+
+.dispute_time_left {
+	float: right;
+	width: 200px;
+}
+
+.dispute_counter {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	display: inline-block;
+	text-align: center;
+	width: 19px;
+	height: 18px;
+	line-height: 16px;
+	color: white;
+	background: url('../../images/dispute/dispute_counter.png') center center;
+	background-size: contain;
+}
+
+#dispute_header_mediator_name, #dispute_header_mediator_name_label {
+	font-size: 16px;
+}
+
+.dispute_time_left {
+	font-size: 16px;
+	line-height: 50px;
+	width: 130px;
+	float: left;
+}
+
+#dispute_time_left_label {
+	line-height: 0;
+	margin-top: -5px;
+	text-align: right;
+}
+
+.dispute_time_left p {
+	line-height: 8px;
+}
+
+.dispute_column {
+	width: 310px;
+	height: 100%;
+	margin-left: 15px;
+	float: right;
+}
+
+#dispute_column_last {
+	margin-left: 0;
+}
+
+#dispute_column_details {
+	display: none;
+}
+
+.dispute_column_section_details_container {
+	margin-bottom: 10px;
+}
+
+.dispute_column_section_title_details {
+	padding: 6px;
+	font-size: 16px;
+	font-family: 'Open Sans Hebrew', serif;
+	color: #575756;
+}
+
+.dispute_column_section_details_second {
+	cursor: pointer;
+	text-align: center;
+	padding: 8px;
+}
+
+.dispute_column_section_details_second:hover{
+	color: #01B1FF;
+}
+
+.dispute_chevron:hover:before {
+    border-color: transparent transparent transparent #01B1FF;
+}
+
+.dispute_column_section_title {
+	position: relative;
+	border: 1px solid #ccc;
+	padding: 5px;
+	padding-top: 15px;
+	color: #5d5d5d;
+	background-color: #ffffff;
+	text-align: center;
+	margin-top: 5px;
+	border-bottom: none;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.dispute_column_section_title_info {
+	background-color: #A7C317;
+	color: white;
+	border-radius: 50%;
+	padding: 2px 6px 2px 6px;
+	display: inline;
+	font-size: 11px;
+	line-height: 12px;
+	vertical-align: top;
+	font-weight: bold;
+	cursor: pointer;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+}
+
+.dispute_column_section_title_info:hover {
+	background-color: #CDE198;
+}
+
+.dispute_column_section_title_info:active {
+	background-color: #A7C317;
+}
+
+.dispute_column_section_title_info_tooltip, .dispute_header_the_sides_info_tooltip {
+	display: none;
+    width: 210px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid #CACACA;
+    position: absolute;
+    left: -5px;
+    top: 40px;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px;
+    color: black;
+    z-index: 15;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.dispute_header_the_sides_info_tooltip {
+	left: 60px;
+}
+
+.dispute_column_section_title_info_tooltip:after, .dispute_header_the_sides_info_tooltip:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -16px;
+	left: 11px;
+	width: 0;
+	height: 0;
+	border-color: transparent transparent white transparent;
+	border-style: solid;
+	border-width: 8px;
+	z-index: 15;
+}
+
+.dispute_header_the_sides_info_tooltip:after {
+	right: 23px;
+}
+
+.dispute_column_section_title_info_tooltip:before, .dispute_header_the_sides_info_tooltip:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -18px;
+	left: 10px;
+	width: 0;
+	height: 0;
+	border-color: transparent transparent #CACACA transparent;
+	border-style: solid;
+	border-width: 9px;
+}
+
+.dispute_header_the_sides_info_tooltip:before {
+	right: 22px;
+}
+
+.dispute_column_section_content {
+	padding: 15px;
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+	border-top: none;
+	overflow: hidden;
+	height: 510px;
+	overflow:scroll;
+}
+
+.dispute_column_section_content_chat_new_message,
+.dispute_column_section_content_available_options_new_option {
+	font-family: Almoni;
+	box-sizing: border-box;
+	padding: 5px;
+	background-color: white;
+	color: black;
+	margin-bottom: 5px;
+	border: 1px solid #CCC;
+	width: 100%;
+}
+
+.dispute_option_agree {
+	display: none;
+}
+
+.dispute_column_section_content_chat_new_message_btn,
+.dispute_column_section_content_chat_new_message_emotion_btn {
+	font-family: Almoni;
+	background-color: transparent;
+	color: black;
+	padding: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: none;
+	border-radius: 3px;
+}
+
+.dispute_chat_img {
+	height: 14px;
+}
+
+#dispute_feeling_panel_main_chat, #dispute_feeling_panel_private_chat {
+	position: absolute;
+	background-color: white;
+	padding: 5px;
+	box-sizing: border-box;
+	top: 54px;
+	right: 30px;
+	width: 279px;
+	height: 105px;
+	border: 1px solid #01B1FF;
+	display: none;
+	text-align: left;
+	color: #3c3c3b;
+	font-family: 'Open Sans Hebrew', serif;
+	font-size: 14px;
+}
+
+#dispute_feeling_panel_private_chat {
+	width: 280px;
+	top: 5px;
+	right: 14px;
+	background-color: #1e3867;
+	color: white;
+}
+
+.dispute_feeling_panel_chat_col {
+	width: 86px;
+	height: 22px;
+	float: left;
+}
+
+.dispute_feeling_panel_feeling_label {
+	cursor: pointer;
+	padding-left: 22px;
+	background-repeat: no-repeat !important;
+	background-size: contain !important;
+	font-size: 12px;
+}
+
+.dispute_feeling_panel_feeling_label.header {
+	background-color: transparent;
+}
+
+.dispute_feeling_panel_feeling_label:hover {
+	color: #01B1FF;
+}
+
+.dispute_feeling_panel_row {
+	margin-bottom: 5px;
+}
+
+#dispute_main_chat_btn, #dispute_private_chat_btn, #dispute_private_chat_btn_second_chat, #dispute_mediator_chat_btn,
+#dispute_mediator_chat_btn_2nd {
+	cursor: pointer;
+	background: url('../../images/dispute/dispute_btn_send.png');
+	background-repeat: no-repeat;
+	background-size: contain !important;
+	width: 50px;
+	margin-left: 10px;
+	text-align: right;
+	padding-right: 0
+}
+
+#dispute_main_chat_btn, .dispute_column_section_content_chat_new_message_btn, #dispute_main_chat_emotion_btn,
+#dispute_private_chat_mediator_emotion_btn, #dispute_private_chat_mediator_emotion_btn_2nd {
+	color: #3c3c3b;
+	font-size: 14px;
+	font-family: 'Open Sans Hebrew', serif;
+}
+
+#dispute_main_chat_btn:hover, #dispute_private_chat_btn:hover, #dispute_private_chat_btn_second_chat:hover, #dispute_private_chat_btn_second_chat_2nd:hover
+#dispute_mediator_chat_btn:hover {
+	background: url('../../images/dispute/dispute_btn_send_hover.png');
+	background-repeat: no-repeat;
+	background-size: contain !important;
+	color: #01B1FF;
+}
+
+#dispute_main_chat_btn:active, #dispute_private_chat_btn:active, #dispute_mediator_chat_btn:active, #dispute_mediator_chat_btn_2nd:active {
+	background: url('../../images/dispute/dispute_btn_send_clicked.png');
+	background-repeat: no-repeat;
+	background-size: contain !important;
+	color: #314557;
+}
+
+#dispute_main_chat_emotion_btn, #dispute_private_chat_emotion_btn {
+	cursor: pointer;
+	line-height: 18px;
+	position: absolute;
+	bottom: 0;
+	left: 80px;
+	z-index: 9;
+	border: 1px solid white;
+	background-color: white !important;
+	text-align: center;
+	padding: 15px;
+	width: 120px;
+	padding: 0;
+	border-radius: 0;
+	background: url('../../images/dispute/feelings/indifferent.png');
+	background-repeat: no-repeat;
+	background-size: 16px!important;
+    background-position: left center;
+    height: 28px;
+}
+
+.dispute_private_chat_new {
+	width: 34px;
+	height: 32px;
+	background: url('../../images/dispute/dispute_new_message.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	position: absolute;
+	bottom: 2px;
+	left: 25px;
+	display: none;
+}
+
+#dispute_main_chat_emotion_btn:hover, #dispute_private_chat_emotion_btn:hover {
+	color: #01B1FF;
+	background: url('../../images/dispute/feelings/indifferent_hover.png');
+	background-repeat: no-repeat;
+	background-size: 16px!important;
+    background-position: left center;
+}
+
+#dispute_main_chat_emotion_btn.active, #dispute_private_chat_emotion_btn.active {
+	border: 1px solid #01B1FF;
+	border-top: 1px solid white;
+	width: 100px;
+	margin-left: 10px;
+	background: none;
+}
+
+#dispute_private_chat_emotion_btn.active {
+	border-left: 1px solid #01B1FF !important;
+	border-bottom: 1px solid #01B1FF !important;
+	border-right: 1px solid #01B1FF !important;
+	border-top: none 4px solid red !important;
+	z-index: 999;
+	background-color: #1e3867 !important;
+	box-sizing: content-box;
+}
+
+#dispute_private_chat_emotion_btn {
+	background-color: transparent !important;
+	border: none;
+	background-image: url('../../images/dispute/feelings/indifferent_white.png');
+}
+
+#dispute_private_chat_emotion_btn:hover {
+	border: none;
+}
+
+#dispute_private_chat_emotion_btn:active, #dispute_private_chat_emotion_btn.active {
+	border: none;
+}
+
+.dispute_column_section_content_chat_messages_message {
+	border: 1px solid #EBEBEB;
+	background-color: white;
+	padding: 5px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 7px;
+	position: relative;
+	box-sizing: border-box;
+	width: 278px;
+	font-family: 'Open Sans Hebrew', serif;
+	font-size: 14px;
+}
+
+.dispute_column_section_content_chat_messages_message .dispute_chat_message_writer {
+	color: #E2DC04;
+}
+
+.dispute_column_section_content_chat_messages_message:after {
+	content: '';
+	border-right: 4px solid #E2DC04;
+	position: absolute;
+	bottom: -1px;
+	top: -1px;
+	right: 0;
+	left: -5px;
+}
+
+.dispute_parties1_message.dispute_column_section_content_chat_messages_message .dispute_chat_message_writer {
+	color: #00a651;
+}
+
+.dispute_parties2_message.dispute_column_section_content_chat_messages_message .dispute_chat_message_writer {
+	color: #a9c60e;
+}
+
+.dispute_parties1_message.dispute_column_section_content_chat_messages_message:after {
+	border-right: 4px solid #00a651;
+}
+
+.dispute_parties2_message.dispute_column_section_content_chat_messages_message:after {
+	border-right: 4px solid #a9c60e;
+}
+
+.dispute_mediator_message.dispute_column_section_content_chat_messages_message:after {
+	content: '';
+	border-right: 4px solid #11456A;
+	position: absolute;
+	bottom: -1px;
+	top: -1px;
+	right: 0;
+	left: -5px;
+}
+
+.dispute_mediator_message.dispute_column_section_content_chat_messages_message .dispute_chat_message_writer {
+	color: #11456A;
+}
+
+.dispute_mediator_message.dispute_chat_message_feeling, .dispute_mediator_message .dispute_chat_message_feeling{
+	display: none;
+}
+
+.dispute_chat_message_time {
+	color: #CFCFCF;
+	float: left;
+	font-size: 12px;
+}
+
+.dispute_chat_message_writer {
+	font-weight: bold;
+}
+
+#dispute_column_section_content_details {
+	height: 510px;
+}
+
+.dispute_column_section_content_details_block {
+	padding: 5px;
+	margin-bottom: 5px;
+	border-right: 4px solid transparent;
+}
+
+.dispute_column_section_content_details_block_name {
+	float: right;
+	font-family: 'Open Sans Hebrew', serif;
+	font-size: 14px;
+}
+
+.dispute_column_section_content_details_block_btn {
+	float: left;
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 3px;
+	color: white;
+}
+
+.dispute_column_section_content_details_block_header {
+	padding: 5px;
+	box-sizing: border-box;
+	color: white;
+}
+
+.dispute_column_section_content_details_block_content {
+	padding: 5px;
+	box-sizing: border-box;
+	font-family: 'Open Sans Hebrew', serif;
+	font-size: 16px;
+	color: #3c3c3b;
+}
+
+.dispute_column_section_content_details_block_name {
+	color: #DDDC01;
+	font-weight: bold;
+}
+
+#dispute_column_section_content_details_mediator .dispute_column_section_content_details_block_name {
+	color: #124469;
+}
+
+#dispute_column_section_content_details_mediator,
+#dispute_column_section_content_details_parties1,
+#dispute_column_section_content_details_parties2 {
+	position: relative;
+	border: 1px solid #CACACA;
+}
+
+#dispute_column_section_content_details_mediator:after, 
+#dispute_column_section_content_details_parties1:after,
+#dispute_column_section_content_details_parties2:after {
+    content: '';
+    border-right: 4px solid #124469;
+    position: absolute;
+    bottom: -1px;
+    top: -1px;
+    right: -1px;
+    left: -5px;
+}
+
+#dispute_column_section_content_details_parties1:after {
+	border-right: 4px solid #00a651;
+}
+
+#dispute_column_section_content_details_parties2:after {
+	border-right: 4px solid #E2DC04;
+}
+
+#dispute_column_section_content_details_parties1  .dispute_column_section_content_details_block_name {
+	color: #00a651;
+}
+
+#dispute_column_section_content_details_parties12 .dispute_column_section_content_details_block_name {
+	color: #98c11d;
+}
+
+.dispute_column_section_content_details_mediator_tags_container {
+	text-align: center;
+}
+
+.dispute_column_section_content_details_mediator_tag {
+	background-color: #F1F1EF;
+	border: none;
+	color: #656564;
+	width: 80px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.dispute_column_section_content_options_option {
+	padding: 5px;
+	padding-top: 15px;
+	padding-left: 10px;
+	background-color: #03affe;
+	color: white;
+	margin-bottom: 15px;
+	border: 1px solid #EBEBEB;
+	clear: both;
+	width: 280px;
+	overflow: hidden;
+	box-sizing: border-box;
+	min-height: 97px;	
+}
+
+.dispute_column_section_content_options_option.new {
+	background-color: #2090DB;
+	color: white;
+}
+
+#dispute_column_section_content_agreement_drag_here {
+	width:237px;
+	font-size:16px;
+	margin-left: -2px;
+	font-family: Almoni;
+	resize: none;
+}
+
+.dispute_parties_selection_side_choice.side1 {
+	color: #00a651;
+}
+
+.dispute_parties_selection_side_choice.side2 {
+	color: #E2DC04;
+}
+
+#dispute_column_section_content_parties_selection_drag_here .dispute_column_section_content_options_option,
+#dispute_column_section_content_agreement_drag_here .dispute_column_section_content_options_option {
+	background-color: #F5F3F4;
+	color: #3c3c3b;
+}
+
+#dispute_column_section_content_parties_selection_drag_here .dispute_column_section_content_options_option:after,
+#dispute_column_section_content_agreement_drag_here .dispute_column_section_content_options_option:after {
+	content: '';
+	border-right: 4px solid #C1D100;
+	position: absolute;
+	bottom: -2px;
+	top: -2px;
+	right: 0;
+	left: -5px;
+}
+
+#dispute_column_section_content_parties_selection_drag_here .side1 .dispute_column_section_content_options_option:after {
+	border-right-color: #00a651;
+}
+
+#dispute_column_section_content_parties_selection_drag_here .side2 .dispute_column_section_content_options_option:after {
+	border-right-color: #E2DC04;
+}
+
+#dispute_column_section_content_agreement_drag_here .dispute_column_section_content_options_option {
+	height: 135px;
+	background-color: white;
+	color: black;
+	border-right: 1px solid #CCC;;
+}
+
+#dispute_column_section_content_agreement_drag_here .dispute_column_section_content_options_option .dispute_column_section_content_options_option_votes,
+#dispute_column_section_content_agreement_drag_here .dispute_column_section_content_options_option .dispute_column_section_content_options_option_writer {
+	display: none;
+}
+
+#dispute_column_section_content_agreement_drag_here.empty,
+#dispute_column_section_content_parties_selection_drag_here.empty {
+	border: 1px solid #CCC;
+	text-align: center;
+	color: #CCC;
+	padding-left: 15px;
+	padding-right: 15px;
+	overflow: hidden;
+}
+#dispute_column_section_content_agreement_drag_here {
+	color: black !important;
+	font-family: 'Open Sans Hebrew', serif;
+	font-size: 16px;
+}
+
+#dispute_column_section_content_parties_selection_drag_here.empty {
+	margin-right: 6px;
+	border: 1px dashed;
+	height: 200px;
+	line-height: 200px;
+	position: relative;
+	line-height: 165px;
+	color: #bcbec0;
+	font-family: 'Open Sans Hebrew', serif;
+	font-size: 16px;
+}
+
+#dispute_column_section_content_parties_selection_drag_here.empty:after {
+	content: url('../../images/dispute/dispute_drag_here_arrow.png');
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 55px;
+}
+
+#dispute_column_section_content_agreement_drag_here.empty {
+	height: 130px;
+	width: 100%;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+
+#dispute_column_section_content_agreement_drag_here.empty:disabled {
+	color: black !important;
+	resize: none;
+	background-color: transparent;
+	padding-top: 40px;
+}
+
+.dispute_column_section_content_available_options_new_option {
+	color: black;
+	border: 1px solid #CCC;
+	background-color: #ffffff;
+	border-bottom: none;
+	margin-bottom: 0;
+	resize: none;
+	outline: none;
+}
+
+#dispute_new_option_btn, .dispute_column_section_content_agreement_drag_here_mediator_send_btn {
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	font-family: Almoni;
+	color: #4A94DB;
+	font-size: 18px;
+}
+
+#dispute_checkbox_is_anonymous, #dispute_checkbox_is_anonymous_label {
+	color: #A9A9A9;
+	margin-top: 0;
+	line-height: 0;
+}
+
+#dispute_checkbox_is_anonymous {
+	display: none;
+}
+
+#dispute_checkbox_is_anonymous + label {
+	background-image: url('../../images/dispute/annonymous_idle.png');
+	height: 16px;
+	width: 85px;
+	background-repeat: no-repeat;
+	background-position: right;
+	text-align: left;
+	padding-right: 25px;
+	cursor: pointer;
+}
+
+#dispute_checkbox_is_anonymous:checked + label {
+	background-image: url('../../images/dispute/annonymous_cilcked.png');
+	height: 16px;
+	width: 85px;
+	background-repeat: no-repeat;
+	background-position: right;
+	text-align: left;
+	color: #03affe;
+}
+
+#dispute_checkbox_is_anonymous_label {
+	background-image: url('../../images/dispute/annonymous_idle.png');
+}
+
+.dispute_column_section_content_chat_new_message_bottom_chars {
+	float: left;
+	font-size: 14px;
+	color: #A9A9A9;
+}
+
+.dispute_column_section_content_options_option_votes,
+.dispute_column_section_content_options_option_content,
+.dispute_column_section_content_options_option_isnew,
+.dispute_column_section_content_options_option_agree {
+	float: right;
+}
+
+.dispute_column_section_content_options_option {
+	position: relative;
+}
+
+.dispute_column_section_content_options_option_votes {
+	width: 50px;
+	text-align: center;
+	line-height: normal;
+	margin-top: 8px;
+}
+
+.dispute_votable {
+	cursor: pointer;
+	margin-top: 12px;
+}
+
+.dispute_votable_triangle {
+	display: none !important;
+}
+
+.dispute_votable .dispute_votable_triangle {
+	display: block !important;
+	position: absolute;
+	top: 7px;
+	color: #423F3A;
+	right: 20px;
+}
+
+.dispute_column_section_content_options_option_content {
+	text-align: right;
+	width: 180px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: 'Open Sans Hebrew', serif;
+}
+
+.dispute_column_section_content_options_option_agree {
+	display: none;
+	line-height: 50px;
+}
+
+.dispute_column_section_content_options_option_isnew {
+	display: none;
+}
+
+.dispute_column_section_content_options_option_writer {
+	width: 100%;
+	text-align: left;
+	overflow: auto;
+	font-size: 14px;
+	font-family: 'Open Sans Hebrew', serif;
+}
+
+.dispute_votes_label {
+	font-size: 12px;
+}
+
+.dispute_column_section_content_options_option_votes_counter {
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Open Sans Hebrew', serif;
+}
+
+.dispute_column_section_content_chat_messages {
+	overflow-y: auto;
+	width: 288px;
+	height: 380px;
+}
+
+#dispute_column_section_content_parties_selection,
+#dispute_column_section_content_agreement, {
+	height: 246px;
+	text-align: center;
+}
+
+#dispute_column_section_content_details_second {
+	display: none;
+}
+
+#dispute_column_section_content_avillable_options {
+	height: 462px;
+}
+
+#dispute_column_section_content_avillable_options.dispute_avillable_options_short {
+	height: 245px;
+}
+
+#dispute_column_section_content_avillable_options.guest {
+	height: 381px !important;
+}
+
+#dispute_column_section_content_parties_selection .dispute_column_section_content_options_option,
+#dispute_column_section_content_agreement .dispute_column_section_content_options_option,  {
+	width: 280px;
+	box-sizing: border-box;
+	min-height: 45px;
+	position: relative;
+}
+
+#dispute_column_section_content_parties_selection ,
+#dispute_column_section_content_agreement {
+	margin-left: 4px;
+	max-height: 246px;
+	overflow-y: scroll;
+	box-sizing: border-box;
+	border: none;
+	padding-top: 0;
+}
+
+#dispute_column_section_content_parties_selection_container,
+#dispute_column_section_content_agreement_container {
+	border: 1px solid #CCC;
+	border-top: none;
+	background-color: #ffffff;
+	padding-bottom: 5px;
+	box-sizing: border-box;
+	padding-top: 14px;
+}
+
+#dispute_column_section_content_parties_selection_container {
+	margin-bottom: 15px;
+	height: 245px;
+}
+
+#dispute_column_section_content_agreement_container {
+	padding-bottom: 0;
+	height: 243px;	
+}
+
+.dispute_column_section_content_agreement_sides_agreement {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.dispute_agrrement_side1, .dispute_agrrement_side2 {
+	float: right;
+	width: 50%;
+	font-size: 14px;
+	font-family: 'Open Sans Hebrew', serif;
+}
+
+.dispute_agreement_btn {
+	cursor: pointer;
+	width: 80%;
+	border: none;
+	background: #CCC;
+	font-family: 'Open Sans Hebrew', serif;
+	font-weight: bold;
+	color: white;
+	padding: 8px;
+	font-size: 14px;
+}
+
+.dispute_agreement_btn.inactive {
+	background: repeating-linear-gradient(
+	  135deg,
+	  #CACACA,
+	  #CACACA 5px,
+	  #BFBFBF 5px,
+	  #BFBFBF 10px
+	);
+}
+
+.dispute_agreement_btn.inactive:hover {
+	background: repeating-linear-gradient(
+	  135deg,
+	  #CACACA,
+	  #CACACA 5px,
+	  #BFBFBF 5px,
+	  #BFBFBF 10px
+	);
+}
+
+.dispute_agreement_btn:hover, .dispute_agreement_btn.active {
+	background: #03affe;
+}
+
+.dispute_agreement_btn:active {
+	background: #314557;
+}
+
+.dispute_agreement_btn.active:hover {
+	background: #0E4A68
+}
+
+.dispute_agreement_btn.dispute_agreement_btn_no_hover:hover {
+	background: #CCC;
+}
+
+.dispute_agreement_btn.active.dispute_agreement_btn_no_hover:hover {
+	background: #03affe;
+}
+
+#dispute_column_section_content_parties_selection {
+	padding-left: 10px;
+	display: block;
+	padding-right: 10px;
+	height: 230px;
+}
+
+#dispute_column_section_content_agreement {
+	margin-left: 0;
+	margin-right: 0;
+	height: 225px;
+}
+
+#dispute_column_section_content_avillable_options {
+	margin-left: -10px;
+}
+
+.dispute_private_chat_container {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: -310px;
+	text-align: center;
+	z-index: 20;
+}
+
+.dispute_private_chat_container .dispute_chat_message_feeling {
+	display: none;
+}
+
+.dispute_private_chat_preview {
+	background-color: #1e3867;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	width: 310px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-bottom: none;
+	box-sizing: border-box;
+	position: relative;
+	font-family: 'Open Sans Hebrew', serif;
+	font-size: 15px;
+
+    -webkit-transition: backgroundColor 1.15s ease-in-out;
+    -moz-transition:    backgroundColor 1.15s ease-in-out;
+    -ms-transition:     backgroundColor 1.15s ease-in-out;
+    transition:         backgroundColor 1.15s ease-in-out;
+}
+
+.dispute_chat_preview_background {
+	background-color: #0F2856;
+}
+
+.dispute_private_chat {
+	position: relative;
+	width: 310px;
+	margin: 0 auto;
+	height: 480px;
+	display: none;
+	background-color: #1e3867;
+	border: 1px solid black;
+	border-bottom: none;
+	border-top: none;
+	text-align: initial;
+	padding: 15px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+
+.dispute_private_chat.second_chat {
+	display: none;
+}
+
+.dispute_private_chat .dispute_column_section_content_chat_messages_message:after {
+	display: none;
+}
+
+.dispute_private_chat .dispute_column_section_content_chat_messages_message.dispute_mediator_message .dispute_chat_message_writer {
+	color: white;
+}
+
+.dispute_private_chat textarea, .dispute_private_chat button {
+	background-color: transparent;
+	color: white;
+}
+
+.dispute_private_chat.second_chat, .dispute_private_chat_preview.second_chat  {
+	margin: auto;
+	position: fixed;
+	left: 245px;
+	bottom: 0;
+}
+
+.dispute_private_chat.second_chat {
+	bottom: 0;
+}
+
+.dispute_private_chat_preview.second_chat {
+	bottom: 480px;
+	display: none;
+	bottom: 0;
+}
+
+.dispute_private_chat_preview.second_chat.active {
+	bottom: 480px;
+}
+
+.dispute_private_chat_preview_dash {
+	float: left;
+	font-weight: bold;
+	color: #CCC;
+	cursor: pointer;
+}
+
+.dispute_private_chat_preview_dash.active {
+	color: white;
+}
+
+#dispute_private_chat .dispute_column_section_content_chat_messages_message,
+#dispute_private_chat_second_chat .dispute_column_section_content_chat_messages_message {
+	background-color: transparent;
+	color: white;
+	border: 1px solid black;
+}
+
+#dispute_private_chat .dispute_column_section_content_chat_messages_message .dispute_name_you,
+#dispute_private_chat_second_chat .dispute_column_section_content_chat_messages_message .dispute_name_you {
+	color: #DDDC01;
+}
+
+.dispute_private_chat_content {
+	overflow-y: scroll;
+	height: 350px;
+	margin-bottom: 120px;
+	margin-left: -10px;
+}
+
+.dispute_column_section_content_chat_new_message {
+	font-family: 'Open Sans Hebrew', serif;
+	font-size: 16px;
+}
+
+.dispute_column_section_content_chat_new_message.main_chat {
+	margin-bottom: 0;
+	border-bottom: 0;
+	resize: none;
+	outline: none;
+	height: 95px;
+}
+
+.dispute_column_section_content_chat_new_message.private_chat,
+.dispute_column_section_content_chat_new_message.second_chat,
+.dispute_column_section_content_chat_new_message.mediator {
+	padding: auto;	
+	border-bottom: none;
+	margin-bottom: 0;
+	resize: none;
+	outline: none;
+}
+
+.dispute_column_section_content_chat_new_message_bottom {
+	text-align: left;
+	margin-top: -4px;
+	margin-bottom: 5px;
+}
+
+.dispute_column_section_content_chat_new_message_bottom.main_chat {
+	border: 1px solid #CCC;
+	border-top: none;
+	background-color: white;
+	position: relative;
+	margin-bottom: 7px;
+	color: #3c3c3b;
+}
+
+.dispute_column_section_content_chat_new_message_bottom.new_option {
+	border: 1px solid #CCC;
+	border-top: none;
+	padding: 3px;
+	box-sizing: border-box;
+}
+
+.dispute_column_section_content_chat_new_message_bottom.private_chat,
+.dispute_column_section_content_chat_new_message_bottom.second_chat,
+.dispute_column_section_content_chat_new_message_bottom.mediator {
+	border: 1px solid #CCC;
+	border-top: none;
+	position: relative;
+}
+
+.dispute_column_section_content_chat_new_message_bottom_anonymous_chars {
+	width: 282px;
+	margin-bottom: 10px;
+}
+
+#dispute_private_chat_mediator {
+	background-color: #2F2F2F;
+}
+
+#dispute_private_chat_mediator .dispute_private_chat_content {
+	margin-bottom: 120px;
+}
+
+.dispute_column_section_content_chat_new_message_bottom.mediator {
+	background-color: #676767;
+}
+
+#dispute_private_chat_mediator_emotion_btn, #dispute_private_chat_mediator_emotion_btn_2nd {
+	background-color: transparent !important;
+	border: none;
+	color: white;
+}
+
+#dispute_private_chat_mediator .dispute_column_section_content_chat_new_message {
+	background-color: #676767;
+}
+
+#dispute_private_chat_mediator .dispute_private_chat_content .dispute_column_section_content_chat_messages_message,
+#dispute_private_chat_mediator .dispute_chat_message_writer,
+#dispute_private_chat_mediator .dispute_private_chat_content .dispute_column_section_content_chat_messages_message .dispute_chat_message_time {
+	color: white !important;
+}
+
+#dispute_private_chat_mediator_side1 .dispute_private_chat_content .dispute_column_section_content_chat_messages_message {
+	background-color: #0fba62 !important;
+}
+
+#dispute_private_chat_mediator_side2 .dispute_private_chat_content .dispute_column_section_content_chat_messages_message {
+	background-color: #b4d01e !important;
+}
+
+#dispute_private_chat_mediator .dispute_private_chat_content .dispute_column_section_content_chat_messages_message.dispute_mediator_message {
+	background-color: black !important;
+}
+
+.dispute_private_chat_preview_mediator_chat_with {
+	display: none;
+	margin-right: 15px;
+	font-size: 15px;
+	color: #CACACA;
+	cursor: pointer;
+	position: relative;
+	line-height: -10px;
+	border-bottom: 4px solid transparent;
+}
+
+.dispute_private_chat_preview_mediator_chat_with.active {
+	color: white;
+}
+
+.dispute_private_chat_preview_mediator_chat_with.side1.active:after {
+	border-bottom: 4px solid #A9C60E;
+	right: 0;
+	width: 100%;
+}
+
+.dispute_private_chat_preview_mediator_chat_with.active:after {
+	content: '';
+	right: 0;
+	bottom: -10px;
+	width: 100%;
+	position: absolute;
+	border-bottom: 4px solid #A9C60E;
+}
+
+#dispute_private_chat_preview_mediator {
+	display: none;
+	background-color: #111111;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 310px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-bottom: none;
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Open Sans Hebrew', serif;
+    font-size: 15px;
+    text-align: right;
+    padding-right: 15px;
+    -webkit-transition: backgroundColor 1.15s ease-in-out;
+    -moz-transition: backgroundColor 1.15s ease-in-out;
+    -ms-transition: backgroundColor 1.15s ease-in-out;
+    transition: backgroundColor 1.15s ease-in-out;
+}
+
+.dispute_private_chat_mediator_new:after {
+	content: '';
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: red;
+	left: 20px;
+	top: 10px;
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+}
+
+.dispute_private_chat_mediator_new.side1:after {
+	background-color: #0fba62;
+}
+
+.dispute_private_chat_mediator_new.side2:after {
+	background-color: #b4d01e;
+}
+
+.dispute ::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+.dispute ::-webkit-scrollbar-track {
+    border-radius: 6px;
+}
+ 
+.dispute ::-webkit-scrollbar-thumb {
+	background-color: #BCBBB9;
+    border-radius: 6px;
+}
+
+.dispute_private_chat ::-webkit-scrollbar-thumb {
+	background-color: #0D2D43;
+}
+
+#dispute_private_chat_mediator ::-webkit-scrollbar-thumb {
+	background-color: #6F6D6E;
+}
+
+/* Feelings */
+.dispute_chat_message_feeling {
+	width: 16px;
+	float: left;
+}
+
+.dispute_feeling_panel_feeling_label.active {
+	color: #01B1FF
+}
+
+.dispute_feeling_label_indifferent {
+	background: url('../../images/dispute/feelings/indifferent.png');
+}
+
+#dispute_feeling_panel_private_chat .dispute_feeling_label_indifferent {
+	background: url('../../images/dispute/feelings/indifferent_white.png');
+}
+
+.dispute_feeling_label_indifferent:hover, #dispute_feeling_label_indifferent.active  {
+	background: url('../../images/dispute/feelings/indifferent_hover.png');
+}
+
+.dispute_feeling_label_sorry {
+	background: url('../../images/dispute/feelings/sorry.png');
+}
+
+#dispute_feeling_panel_private_chat .dispute_feeling_label_sorry {
+	background: url('../../images/dispute/feelings/sorry_white.png');
+}
+
+.dispute_feeling_label_sorry:hover {
+	background: url('../../images/dispute/feelings/sorry_hover.png');
+}
+
+.dispute_feeling_label_offended {
+	background: url('../../images/dispute/feelings/sorry.png');
+}
+
+#dispute_feeling_panel_private_chat .dispute_feeling_label_offended {
+	background: url('../../images/dispute/feelings/sorry_white.png');
+}
+
+.dispute_feeling_label_offended:hover {
+	background: url('../../images/dispute/feelings/sorry_hover.png');
+}
+
+.dispute_feeling_label_angry {
+	background: url('../../images/dispute/feelings/angry.png');
+}
+
+#dispute_feeling_panel_private_chat .dispute_feeling_label_angry {
+	background: url('../../images/dispute/feelings/angry_white.png');
+}
+
+.dispute_feeling_label_angry:hover {
+	background: url('../../images/dispute/feelings/angry_hover.png');	
+}
+
+.dispute_feeling_label_love {
+	background: url('../../images/dispute/feelings/love.png');
+}
+
+#dispute_feeling_panel_private_chat .dispute_feeling_label_love {
+	background: url('../../images/dispute/feelings/love_white.png');
+}
+
+.dispute_feeling_label_love:hover {
+	background: url('../../images/dispute/feelings/love_hover.png');
+}
+
+.dispute_feeling_label_guilty {
+	background: url('../../images/dispute/feelings/guilty.png');
+}
+
+#dispute_feeling_panel_private_chat .dispute_feeling_label_guilty {
+	background: url('../../images/dispute/feelings/guilty_white.png');
+}
+
+.dispute_feeling_label_guilty:hover {
+	background: url('../../images/dispute/feelings/guilty_hover.png');
+}
+
+.dispute_feeling_label_ashamed {
+	background: url('../../images/dispute/feelings/ashamed.png');
+}
+
+#dispute_feeling_panel_private_chat .dispute_feeling_label_ashamed {
+	background: url('../../images/dispute/feelings/ashamed_white.png');
+}
+
+.dispute_feeling_label_ashamed:hover {
+	background: url('../../images/dispute/feelings/ashamed_hover.png');
+}
+
+.dispute_feeling_label_disappointed {
+	background: url('../../images/dispute/feelings/disappointed.png');
+}
+
+#dispute_feeling_panel_private_chat .dispute_feeling_label_disappointed {
+	background: url('../../images/dispute/feelings/disappointed_white.png');
+}
+
+.dispute_feeling_label_disappointed:hover {
+	background: url('../../images/dispute/feelings/disappointed_hover.png');
+}
+
+.dispute_feeling_label_hate {
+	background: url('../../images/dispute/feelings/hate.png');
+}
+
+#dispute_feeling_panel_private_chat .dispute_feeling_label_hate {
+	background: url('../../images/dispute/feelings/hate_white.png');
+}
+
+.dispute_feeling_label_hate:hover {
+	background: url('../../images/dispute/feelings/hate_hover.png');
+}
+
+.dispute_feeling_label_undecided {
+	background: url('../../images/dispute/feelings/undecided.png');
+}
+
+#dispute_feeling_panel_private_chat .dispute_feeling_label_undecided {
+	background: url('../../images/dispute/feelings/undecided_white.png');
+}
+
+.dispute_feeling_label_undecided:hover {
+	background: url('../../images/dispute/feelings/undecided_hover.png');
+}
+
+.dispute_feeling_label_jealous {
+	background: url('../../images/dispute/feelings/jealous.png');
+}
+
+#dispute_feeling_panel_private_chat .dispute_feeling_label_jealous {
+	background: url('../../images/dispute/feelings/jealous_white.png');
+}
+
+.dispute_feeling_label_jealous:hover {
+	background: url('../../images/dispute/feelings/jealous_hover.png');
+}
+
+/* Chevron */
+#dispute_column_section_title_details_chevron {
+	top: 2px;
+	font-size: 13px;
+}
+
+/* Arrows */
+.dispute_arrow-down {
+	position: absolute;
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid black;
+}
+
+/* Popup */
+.dispute_popup_container {
+	display: none;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	height: 100%;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	text-align: center;
+}
+
+.dispute_popup {
+	position: relative;
+	vertical-align: middle;
+	margin: 0 auto;
+	top: 280px;
+	width: 400px;
+	height: 100px;
+	background-color: white;
+	border: 1px solid #CACACA;
+	z-index: 11;
+	opacity: none;
+}
+
+.dispute_popup_title {
+	color: #06ABFB;
+	margin-top: 30px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.dispute_popup_content {
+	margin-top: 25px;
+}
+
+.dispute_popup_close {
+	float: right;
+	width: 20px;
+	float: left;
+	cursor: pointer;
+}
+
+.dispute_popup_close:after {
+	position: absolute;
+    top: 0;
+    left: 15px;
+    content: "\d7";
+    font-size: 50px; 
+    color: #CACACA	;
+}
+
+/* Fade */
+.dispute_chat_fade {
+    position: absolute;
+    bottom: 4px;
+    right: 25px;
+    width: 290px;
+    height: 55px;
+    background: -webkit-linear-gradient(
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 100%
+    ); 
+    background-image: -moz-linear-gradient(
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 100%
+    );
+    background-image: -o-linear-gradient(
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 100%
+    );
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 100%
+    );
+    background-image: -ms-linear-gradient(
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 100%
+    );
+}
+
+.dispute_chat_fade_private_chat {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    width: 285px;
+    height: 35px;
+    background: -webkit-linear-gradient(
+        rgba(30, 56, 103, 0) 0%,
+        rgba(30, 56, 103, 1) 100%
+    ); 
+    background-image: -moz-linear-gradient(
+        rgba(30, 56, 103, 0) 0%,
+        rgba(30, 56, 103, 1) 100%
+    );
+    background-image: -o-linear-gradient(
+        rgba(30, 56, 103, 0) 0%,
+        rgba(30, 56, 103, 1) 100%
+    );
+    background-image: linear-gradient(
+        rgba(30, 56, 103, 0) 0%,
+        rgba(30, 56, 103, 1) 100%
+    );
+    background-image: -ms-linear-gradient(
+        rgba(30, 56, 103, 0) 0%,
+        rgba(30, 56, 103, 1) 100%
+    );
+}
+
+.dispute_chat_fade_private_chat_mediator {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    width: 285px;
+    height: 35px;
+    background: -webkit-linear-gradient(
+        rgba(47, 47, 47, 0) 0%,
+        rgba(47, 47, 47, 1) 100%
+    ); 
+    background-image: -moz-linear-gradient(
+        rgba(47, 47, 47, 0) 0%,
+        rgba(47, 47, 47, 1) 100%
+    );
+    background-image: -o-linear-gradient(
+        rgba(47, 47, 47, 0) 0%,
+        rgba(47, 47, 47, 1) 100%
+    );
+    background-image: linear-gradient(
+        rgba(47, 47, 47, 0) 0%,
+        rgba(47, 47, 47, 1) 100%
+    );
+    background-image: -ms-linear-gradient(
+        rgba(47, 47, 47, 0) 0%,
+        rgba(47, 47, 47, 1) 100%
+    );
+}
+
+/* Mediator Menu */
+.dispute_mediator_menu {
+	display: none;
+	position: absolute;
+	width: 78px;
+	height: 70px;
+	left: -20px;
+	top: 25px;
+	background-color: #3c3c3b;
+	text-align: center;
+	cursor: pointer;
+	z-index: 6;
+}
+
+.dispute_mediator_menu:before {
+	content: '';
+	background-image: url('../../images/dispute/dispute_mediator_menu_behind.png');
+	position: absolute;
+	height: 68px;
+	width: 106px;
+    left: -43px;
+    top: -38px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.dispute_mediator_menu.open {
+	border-right: solid 4px #cacaca;
+}
+
+.dispute_mediator_menu:hover {
+	background-color: #0f2856;
+}
+
+.dispute_mediator_menu_btn {
+	position: absolute;
+	top: 10px;
+	left: 17px;
+	height: 60px;
+	width: 70px;
+	background-image: url('../../images/dispute/dispute_mediator_menu.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+
+.dispute_mediator_menu_btn.open {
+	background-image: url('../../images/dispute/dispute_mediator_menu_close.png');
+	left: 3px;
+	top: 6px;
+}
+
+.dispute_mediator_menu_label {
+	line-height: 110px;
+	display: block;
+	text-align: center;
+	bottom: 0;
+	font-size: 14px;
+	font-family: 'Open Sans Hebrew', serif;
+	color: white;
+}
+
+.dispute_mediator_menu_main {
+	display: none;
+	width: 78px;
+	height: 339px;
+	position: absolute;
+	background-color: #3c3c3b;
+	border-right: solid 4px #cacaca;
+	left: -20px;
+	top: -314px;
+	z-index: 10;
+}
+
+.dispute_mediator_menu_main:before {
+	content: '';
+	background-image: url('../../images/dispute/dispute_mediator_menu_behind.png');
+	position: absolute;
+	height: 68px;
+	width: 106px;
+    left: -43px;
+    top: -38px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.dispute_mediator_menu_main_item {
+	width: 78px;
+	height: 66px;
+	background-position: center 13px;
+	background-repeat: no-repeat;
+	border-bottom: 1px solid #CACACA;
+	border-top: 1px solid #CACACA;
+	cursor: pointer;
+	vertical-align: bottom;
+	position: relative;
+}
+
+.dispute_mediator_menu_item_label {
+	bottom: 0;
+	font-size: 14px;
+	font-family: 'Open Sans Hebrew', serif;
+	color: #CACACA;
+	font-weight: bold;
+	line-height: 12px;
+	position: absolute;
+	bottom: 10px;
+	display: block;
+	width: 100%;
+}
+
+.dispute_mediator_menu_main_item:hover, .dispute_mediator_menu_main_item.active {
+	background-color: #03AFFE;
+}
+
+.dispute_mediator_menu_main_item:hover span, .dispute_mediator_menu_main_item.active span {
+	color: #fff;
+}
+
+#dispute_mediator_menu_main_item_notes {
+	background-image: url('../../images/dispute/dispute_mediator_menu_notes.png');
+}
+
+#dispute_mediator_menu_main_item_disputes {
+	background-image: url('../../images/dispute/dispute_mediator_menu_disputes_list.png');
+}
+
+#dispute_mediator_menu_main_item_time {
+	background-image: url('../../images/dispute/dispute_mediator_menu_time.png');
+}
+
+#dispute_mediator_menu_main_item_address_crowd {
+	background-image: url('../../images/dispute/dispute_mediator_menu_address_crowd.png');
+}
+
+#dispute_mediator_menu_main_item_sides {
+	background-image: url('../../images/dispute/dispute_mediator_menu_sides.png');
+}
+
+.dispute_mediator_menu_main_item_open {
+	position: absolute;
+	width: 400px;
+	height: 523px;
+	left: -2px;
+	top: -325px;
+	background-color: white;
+	border: 1px solid #CACACA;
+	z-index: 4;
+	display: none;
+	text-align: right;
+	padding-right: 20px;
+	padding-left: 85px;
+	box-sizing: border-box;
+	font-family: 'Open Sans Hebrew', serif;
+}
+
+.dispute_mediator_menu_main_item_open_title {
+	text-align: right;
+	font-size: 26px;
+	font-weight: bold;
+	color: #03affe;
+	margin-top: 35px;
+	font-family: Almoni;
+}
+
+.dispute_mediator_menu_main_item_open_subtitle {
+	margin-top: 10px;
+	font-size: 14px;
+	color: #3c3c3b;
+}
+
+#dispute_mediator_menu_main_item_notes_open_subtitle {
+	margin-bottom: 35px;
+}
+
+.dispute_mediator_menu_main_item_open_status {
+	position: absolute;
+	width: 399px;
+	height: 135px;
+	background-color: #F7F7F7;
+	top: -120px;
+	left: 0px;
+	border-right: solid 1px #cacaca;
+	border-bottom: solid 1px #cacaca;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+.dispute_mediator_menu_main_item_open_status_title {
+	text-align: center;
+	font-size: 12px;
+	font-family: 'Open Sans Hebrew', serif;
+	margin-top: 10px;
+}
+
+.dispute_mediator_menu_main_item_open_status_container {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 20px;
+	padding-right: 100px;
+}
+
+.dispute_mediator_menu_main_item_open_status_single {
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	margin-left: 46px;
+	border: 1px dashed #CACACA;
+	float: right;
+	position: relative;
+	background-color: #f5f5f5;
+}
+
+.dispute_mediator_menu_main_item_open_status_single span {
+	display: block;
+	position: absolute;
+    bottom: -35px;
+    left: -10px;
+    width: 60px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.dispute_mediator_menu_main_item_open_status_single.active span {
+	bottom: -37px;
+}
+
+.dispute_mediator_menu_main_item_open_status_single:after {
+    content: '';
+    width: 37px;
+    border-bottom: 1px solid #9f9f9f;
+    position: absolute;
+    right: 43px;
+    top: 18px;
+}
+
+.dispute_mediator_menu_main_item_open_status_single.active {
+	background-color: #bfebff;
+	border: 2px solid #03affe;
+	box-sizing: border-box;
+}
+
+.dispute_mediator_menu_main_item_open_status_single.done {
+	background-color: #a9c60e;
+	border: 1px solid #a9c60e;
+}
+
+.dispute_mediator_menu_main_item_open_status_single.done:before {
+	content: url('../../images/dispute/dispute_stage_done.png');
+	position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+.dispute_mediator_menu_main_item_open_status_single.active:before {
+	content: url('../../images/dispute/dispute_status_arrow_bottom.png');
+	position: absolute;
+    top: -26px;
+    left: 11px;
+}
+
+.dispute_mediator_menu_main_item_open_status_single.active:after {
+	right: 40px;
+}
+
+.dispute_mediator_menu_main_item_open_status_single.last-child:after {
+	border: none;
+}
+
+.dispute_mediator_menu_main_item_open_notes_textarea,
+.dispute_mediator_menu_main_item_open_sides_textarea {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.dispute_mediator_menu_main_item_open_notes_textarea textarea,
+.dispute_mediator_menu_main_item_open_sides_textarea textarea {
+	width: 100%;
+	resize: none;
+	height: 120px;
+	margin-bottom: 10px;
+	padding: 5px;
+	box-sizing: border-box;
+	font-family: 'Open Sans Hebrew', serif;
+}
+
+.dispute_mediator_menu_main_item_open_sides_textarea textarea {
+	pointer-events: none;
+}
+
+.dispute_side1_color {
+	color: #00a651;
+}
+
+.dispute_side2_color {
+	color: #E2DC04;
+}
+
+.dispute_mediator_color {
+	color: #11456A;
+}
+
+.dispute_mediator_menu_item_btn_container {
+	width: 100%;
+	text-align: center;
+}
+
+.dispute_mediator_menu_item_btn {
+	border-radius: 4px;
+	background-color: #03affe;
+	padding: 5px 20px 5px 20px;
+	color: white;
+	border: none;
+	font-family: 'Open Sans Hebrew', serif;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.dispute_mediator_menu_item_btn_cancel {
+	background-color: white;
+	color: #1E396A;
+	border: 1px solid #1E396A;
+	padding: 4px 20px 4px 20px;
+	box-shadow: 0 0 1px 0 #CACACA;
+	box-sizing: bordre-box;
+	cursor: pointer;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open {
+	height: 642px;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part {
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_subtitle {
+	margin-top: 3px;
+	margin-right: 25px;
+	font-color: #BABABA;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_title_number_label {
+	color: #3B3B3B;
+	float: right;
+	display: block;
+	width: 200px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_title_number {
+	float: right;
+	display: block;
+	background-color: #3B3B3B;
+	border-radius: 50%;
+	color: white;
+	width: 20px;
+	text-align: center;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part textarea {
+	width: 100%;
+	resize: none;
+	height: 120px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+	box-sizing: border-box;
+	font-family: 'Open Sans Hebrew', serif;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_container {
+	margin-right: 5px;
+	margin-left: -25px;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_container div {
+	float: right;
+	width: 75px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-position: center 20px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_container div span {
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_container span {
+	background-image: url('../../images/dispute/dispute_circle_not_selected.png');
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_relations {
+	background-image: url('../../images/dispute/dispute_relations.png');
+	background-position: center 30px !important;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_relations:hover,
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_relations.dispute_mediator_menu_selected  {
+	background-image: url('../../images/dispute/dispute_realtions_blue.png');
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_relations:hover span {
+	background-image: url('../../images/dispute/dispute_circle_not_selected_blue.png');
+	color: #03affe;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_commercial {
+	background-image: url('../../images/dispute/dispute_commercial.png');
+	background-position: center 30px !important;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_commercial:hover,
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_commercial.dispute_mediator_menu_selected {
+	background-image: url('../../images/dispute/dispute_commercial_blue.png');
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_commercial:hover span {
+	background-image: url('../../images/dispute/dispute_circle_not_selected_blue.png');
+	color: #03affe;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_virtual {
+	background-image: url('../../images/dispute/dispute_virtual.png');
+	background-position: center 40px !important;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_virtual:hover,
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_virtual.dispute_mediator_menu_selected {
+	background-image: url('../../images/dispute/dispute_virtual_blue.png');
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_virtual:hover span {
+	background-image: url('../../images/dispute/dispute_circle_not_selected_blue.png');
+	color: #03affe;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_accomodation {
+	background-image: url('../../images/dispute/dispute_accomadation.png');
+	background-position: center 35px !important;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_accomodation:hover,
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_accomodation.dispute_mediator_menu_selected {
+	background-image: url('../../images/dispute/dispute_accomadation_blue.png');
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_choices_accomodation:hover span {
+	background-image: url('../../images/dispute/dispute_circle_not_selected_blue.png');
+	color: #03affe;
+}
+
+.dispute_mediator_menu_selected span, .dispute_mediator_menu_selected:hover span {
+	background-image: url('../../images/dispute/dispute_circle_selected.png');
+	color: #03affe;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_tags_container {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 45px;
+	margin-left: -10px;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_tags_tag,
+.dispute_initdispute_mediator_content_tag {
+	position: relative;
+	float: right;
+	width: 70px;
+	margin-left: 15px;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_tags_tag:last-child {
+	margin-left: 0;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_tags_tag input,
+.dispute_initdispute_mediator_content_tag input {
+	width: 62px;
+	height: 62px;
+	border-radius: 50%;
+	border: 1px dashed #CACACA;
+	background-color: #f1f2ed;
+	font-family: 'Open Sans Hebrew', serif;
+	font-size: 14px;
+	outline: none;
+	padding: 3px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.dispute_initdispute_tags_container {
+	margin: 0 auto;
+}
+
+.dispute_initdispute_mediator_content_tag input {
+	width: 55px;
+	height: 55px;
+}
+
+.dispute_initdispute_mediator_content_tag {
+	width: 60px;
+	margin-left: 8px;
+}
+
+.dispute_initdispute_mediator_content_tag:last-child {
+	margin-left: 0;
+}
+
+.dispute_initdispute_mediator_content_tag input {
+	border: 1px solid #CACACA;
+}
+
+.dispute_initdispute_mediator_content_tag.main_tag input {
+	color: #03affe;
+	background-color: #f0faff;
+	border-color: #03affe;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_part_tags_tag_placeholder {
+	position: absolute;
+	bottom: 13px;
+	left: 16px;
+	color: #9f9f9f;
+	display: block;
+	width: 45px;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage2 .dispute_mediator_menu_main_item_open_status_container {
+	margin-top: 30px;
+	padding-right: 40px;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage2 .dispute_mediator_menu_main_item_open_status_container .dispute_mediator_menu_main_item_open_status_single {
+	width: 48px;
+	height: 48px;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage2 .dispute_mediator_menu_main_item_open_status_container .dispute_mediator_menu_main_item_open_status_single:after {
+	right: 53px;
+    top: 23px;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage2 .dispute_mediator_menu_main_item_open_status_container .dispute_mediator_menu_main_item_open_status_single.active:after {
+	right: 50px;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage2 .dispute_mediator_menu_main_item_open_status_container .dispute_mediator_menu_main_item_open_status_single.active:before {
+	left: 17px;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage2 .dispute_mediator_menu_item_btn_container {
+	margin-top: 65px;
+	margin-right: 10px;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage2 {
+	height: 444px;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage2 .dispute_mediator_menu_main_item_open_subtitle {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage3 {
+	height: 642px; 
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage3 .dispute_mediator_menu_main_item_open_status_single.done:before {
+    top: 7px;
+    left: 6px;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage3 .dispute_mediator_menu_main_item_open_title {
+	margin-bottom: 10px;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_stage3_textarea {
+	font-family: 'Open Sans Hebrew', serif;
+	font-size: 16px;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_stage3_textarea textarea {
+	width: 100%;
+	resize: none;
+	height: 68px;
+	padding: 5px;
+	box-sizing: border-box;
+	border-right: 4px solid;
+	pointer-events: none;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_stage3_textarea.dispute_side1_color textarea {
+	border-right-color: #00a651;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_stage3_textarea.dispute_side2_color textarea {
+	border-right-color: #E2DC04;
+}
+
+.dispute_mediator_menu_main_item_address_crowd_open_stage3_textarea.dispute_mediator_color textarea {
+	border-right-color: #11456A;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage3_textarea_mediator {
+	height: 160px;
+}
+
+.dispute_mediator_menu_edit {
+	background-image: url('../../images/dispute/dispute_edit_pencil.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	float: left;
+	color: #706f6f;
+	padding-left: 20px;
+	font-size: 14px;
+	display: none;
+}
+
+.dispute_mediator_menu_item_btn_edit {
+	background-color: white;
+	color: #1E396A;
+	border: 1px solid #1E396A;
+	padding: 4px 20px 4px 20px;
+	box-shadow: 0 0 1px 0 #CACACA;
+	box-sizing: bordre-box;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage3_subtitle {
+	margin-right: 0;
+	font-size: 16px;
+	color: #23221e;
+	margin-bottom: 15px;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage3 .dispute_mediator_menu_main_item_address_crowd_open_part_tags_container {
+	font-size: 14px;
+	margin-right: 31px;
+	margin-left: -60px
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage3 .dispute_mediator_menu_main_item_address_crowd_open_part_tags_container div {
+	margin-left: 0;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage3 .dispute_mediator_menu_main_item_address_crowd_open_part_tags_container input {
+	text-align: center;
+	pointer-events: none;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_part_tags_main_tag.active {
+	background-image: url('../../images/dispute/dispute_edit_pencil_blue.png');
+	background-repeat: no-repeat;
+	background-position: center 12px;
+	padding-top: 15px;
+	background-color: #F0F9FE;
+	border: 1px solid #02A9F8;
+    color : transparent;
+    text-shadow : 0 0 0 #02A9F8;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_part_tags_main_tag.active:hover,
+#dispute_mediator_menu_main_item_address_crowd_open_part_tags_main_tag.active:focus,
+#dispute_mediator_menu_main_item_address_crowd_open_part_tags_main_tag.active.edit
+ {
+	background-image: url('../../images/dispute/dispute_edit_pencil_white.png');
+	background-color: #03affe;
+	border: 1px solid #0099ff;
+	text-shadow : 0 0 0 white;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_part_tags_main_tag_edit {
+	display: none;
+	position: absolute;
+	left: 70px;
+    top: -30px;
+	background-color: white;
+	width: 300px;
+	height: 120px;
+	border: 1px solid #CACACA;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_part_tags_main_tag_edit:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 51px;
+    left: -16px;
+    width: 0;
+    height: 0;
+    border-color: transparent white transparent transparent;
+    border-style: solid;
+    border-width: 8px;
+    z-index: 3;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_part_tags_main_tag_edit:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: -18px;
+    width: 0;
+    height: 0;
+    border-color: transparent #CACACA transparent transparent;
+    border-style: solid;
+    border-width: 9px;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage3 .dispute_mediator_menu_main_item_address_crowd_open_part_choices_container {
+	padding-right:10px;
+	box-sizing: border-box;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage3 .dispute_mediator_menu_main_item_address_crowd_open_part_choices_container div {
+	margin-left: -5px;
+}
+
+#dispute_mediator_menu_main_item_address_crowd_open_stage3 textarea {
+	font-family: 'Open Sans Hebrew', serif;
+	font-size: 14px;
+	color: #CACACA;
+}
+
+#dispute_mediator_menu_main_item_time_open {
+	height: 430px;
+}
+
+#dispute_mediator_menu_main_item_time_open_select {
+	text-align: center;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+.dispute_underline_bold {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.dispute_time_remaining {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+#dispute_time_remaining_hours {
+	font-size: 20px;
+	color: #AAC812;
+}
+
+.dispute_slider {
+	position: relative;
+}
+
+.dispute_slider input {
+	direction: ltr;
+}
+
+.dispute_slider_value {
+	position: absolute;
+	line-height: 20px;
+	font-size: 16px;
+	color: #3c3c3b;
+}
+
+.dispute_slider_value .dispute_hours {
+	font-size: 12px;
+	color: #9f9f9f;
+}
+
+.dispute_slider_value_min {
+	left: 0
+}
+
+.dispute_slider_value_max {
+	right: 0;
+}
+
+.dispute_time_remaining {
+	margin-bottom: 10px
+}
+
+#dispute_time_remaining_preview_label {
+	margin-top: 25px;
+	font-size: 14px;
+}
+
+.dispute_time_remaining_slider_preview_date {
+	font-size: 24px;
+}
+
+.dispute_time_remaining_slider_preview_time {
+	font-size: 14px;
+	color: #a9c60e;
+	margin-bottom: 25px;
+}
+
+#dispute_time_remaining_slider input {
+	width: 80%;
+	-webkit-appearance: none;
+}
+
+#dispute_time_remaining_slider input::-webkit-slider-thumb {
+	-webkit-appearance: none;
+}
+
+#dispute_time_remaining_slider input:focus; {
+	outline: none !important;
+}
+
+#dispute_time_remaining_slider input::-ms-track {
+	width: 100%;
+	cursor: pointer;
+	background: transparent;
+	border-color: transparent;
+	color: transparent;
+}
+
+#dispute_time_remaining_slider input::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	height: 22px;
+	width: 22px;
+	border-radius: 50%;
+	background: #3c3c3b;
+	cursor: pointer;
+	margin-top: -9px;
+	outline: none;
+}
+
+#dispute_time_remaining_slider input::-moz-range-thumb {
+	height: 22px;
+	width: 22px;
+	border-radius: 50%;
+	background: #3c3c3b;
+	cursor: pointer;
+	outline: none;
+}
+
+#dispute_time_remaining_slider input::-ms-thumb {
+	height: 22px;
+	width: 22px;
+	border-radius: 50%;
+	background: #3c3c3b;
+	cursor: pointer;
+	outline: none;
+}
+
+#dispute_time_remaining_slider input::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 7px;
+	cursor: pointer;
+	background: #cacaca;
+	outline: none !important;
+}
+
+#dispute_time_remaining_slider input:focus::-webkit-slider-runnable-track {
+  
+}
+
+#dispute_time_remaining_slider input::-moz-range-track {
+	width: 100%;
+	height: 7px;
+	cursor: pointer;
+	background: #cacaca;
+}
+
+#dispute_time_remaining_slider input::-ms-track {
+	width: 100%;
+	height: 7px;
+	cursor: pointer;
+	background: transparent;
+	border-color: transparent;
+	border-width: 16px 0;
+	color: transparent;
+}
+
+#dispute_time_remaining_slider input::-ms-fill-lower {
+	background: red;
+}
+
+#dispute_time_remaining_slider input:focus::-ms-fill-lower {
+	background: red;
+}
+
+#dispute_time_remaining_slider input::-ms-fill-upper {
+	background: blue;
+}
+
+#dispute_time_remaining_slider input:focus::-ms-fill-upper {
+	background: blue;
+}
+
+#dispute_column_section_content_initdispute {
+	display: none;
+}
+
+.dispute_initdispute_title {
+	font-family: 'Open Sans Hebrew';
+	font-size: 16px;
+	color: #575756;
+	text-align: center;
+	margin-top: -3px;
+}
+
+.dispute_initdispute_subtitle {
+	font-family: 'Open Sans Hebrew';
+	font-size: 14px;
+	color: #9f9f9f;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.dispute_initdispute_mediator_content {
+	margin-top: 20px;
+	border: 1px solid #cacaca;
+	padding: 7px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.dispute_initdispute_mediator_content:before {
+	content: '';
+	border-right: 4px solid #134566;
+	position: absolute;
+	height: 101%;
+	right: -3px;
+	top: -1px;
+}
+
+.dispute_initdispute_mediator_name {
+	font-weight: bold;
+	color: #134566;
+	font-size: 14px;
+	font-family: 'Open Sans Hebrew';
+}
+
+.dispute_initdispute_adress_crowd {
+	color: #a7a4a2;
+	font-size: 14px;
+	font-family: 'Open Sans Hebrew';
+}
+
+.dispute_initdispute_content_text {
+	font-family: 'Open Sans Hebrew';
+	font-size: 16px;
+	color: #706f6f;
+}
+
+.dispute_initdispute_tags_container {
+	margin-top: 15px;
+	margin-bottom: 13px;
+}
+
+.dispute_initdispute_tags_container_title {
+	font-size: 16px;
+	color: #9f9f9f;
+	font-family: 'Open Sans Hebrew';
+	margin-bottom: 9px;
+}
+
+#dispute_initdispute_your_side {
+	text-align: center;
+}
+
+.dispute_initdispute_your_side {
+	margin-top: 20px;
+}
+
+.dispute_initdispute_your_side_input {
+	height: 100px;
+	width: 272px;
+	border: 1px solid #cacaca;
+	position: relative;
+	border-right: 4px solid #134566;
+	resize: none;
+	padding: 5px;
+	box-sizing: border-box;
+	font-family: 'Open Sans Hebrew';
+	font-size: 16px;
+}
+
+.dispute_initdispute_your_side_input:after {
+	content: '';
+	border-right: 4px solid red;
+	position: absolute;
+	height: 101%;
+	right: -3px;
+	top: -1px;
+}
+
+.dispute_initdispute_your_side_input_chars {
+	float: left;
+	color: #b4b1b0;
+	font-family: 'Open Sans Hebrew';
+	font-size: 14px;
+}
+
+.dispute_initdispute_submit_btn {
+	border-radius: 4px;
+	background-color: #03affe;
+	padding: 5px 20px 5px 20px;
+	color: white;
+	border: none;
+	font-family: 'Open Sans Hebrew', serif;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.dispute_feeling_tooltip {
+	display: none;
+    width: 200px;
+    height: 170px;
+    background-color: white;
+    border: 1px solid #CACACA;
+    position: fixed;
+    top: 120px;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px;
+    color: black;
+    z-index: 9995;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.dispute_feeling_tooltip:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -16px;
+	left: 81px;
+	width: 0;
+	height: 0;
+	border-color: transparent transparent white transparent;
+	border-style: solid;
+	border-width: 8px;
+	z-index: 99995;
+}
+
+.dispute_feeling_tooltip:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -18px;
+	left: 80px;
+	width: 0;
+	height: 0;
+	border-color: transparent transparent #CACACA transparent;
+	border-style: solid;
+	border-width: 9px;
+}
+
+.dispute_feeling_tooltip .dispute_feeling_panel_feeling {
+	height: 20px;
+	width: 80px;
+	display: inline-block;
+}
+
+.dispute_feeling_tooltip .dispute_feeling_panel_feeling_label {
+	padding-top: 10px;
+	font-size: 14px !important;
+	font-family: Almoni !important;
+	background-size: 15px !important;
+	background-repeat: no-repeat;
+	background-position: 25px 0px;
+	color: #333333;
+}
+
+.dispute_arrow_down {
+	cursor: pointer;
+	display: none;
+	width: 0; 
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid black;
+	position: absolute;
+	top: 35px;
+	left: 0px;
+}
+
+.dispute_column_section_content_facebook_share {
+	display: none;
+	text-align: center;
+	padding: 15px;
+	color: #3b5998;
+	font-family: 'Open Sans Hebrew', serif;
+	font-size: 14px;
+}
+
+.dispute_column_section_content_facebook_share_title {
+	font-weight: bold;
+}
+
+.dispute_column_section_content_facebook_share_subtitle {
+	/*margin-bottom: 15px;*/
+}
+
+.dispute_fb_btn {
+	text-decoration: none;
+	border: none;
+	border-radius: 3px;
+	text-align: right;
+	width: 110px;
+	/*background-color: #3E5C9A;*/
+	padding-left: 33px;
+	padding-right: 10px;
+	/*background-image: url('../../images/main/main_fb.png');*/
+	background-repeat: no-repeat;
+	background-position: 10px;
+	position: relative;
+	padding: 8px 10px 8px 10px;
+	color: white;
+	padding-left: 25px;
+	font-family: 'Open Sans Hebrew', serif;
+	margin-bottom: 10px;
+	margin-left:-100px;
+	cursor: pointer;
+	float:left;
+	left:50%;
+}
+#dispute_column_section_content_agreement {
+	position: relative;
+}
+
+.dispute_column_section_content_agreement_drag_here_mediator_send_btn {
+	display: none;
+	position: absolute;
+	bottom: 100px;
+	left: 22px;
+}

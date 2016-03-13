@@ -1,0 +1,142 @@
+.editProfile {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: block;
+    z-index: 10000;
+    overflow: hidden;
+}
+
+#editProfile_exit_button {
+    float: right;
+    font-size: 22px;
+    margin-top: -15px;
+    right: 7px;
+    position: inherit;
+    transition: 0.5s all;
+}
+
+#editProfile_exit_button:hover {
+    color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+.editProfile_bg {
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 2;
+    display: block;
+    cursor: pointer;
+}
+
+.editProfile_holder {
+    width: 350px;
+    padding: 22px;
+    background: #fff;
+    margin-left: -153px;
+    position: absolute;
+    left: 50%;
+    display: block;
+    z-index: 3;
+    top: 22%;
+    height: 505px;
+    text-align: center;
+}
+
+.editProfile_holder_title {
+    width: 100%;
+    color: #1e798e;
+    text-align: center;
+    font-size: 25px;
+    float: left;
+}
+
+.editProfile_img {
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 14%;
+    margin-top: -34%;
+    /*border-style: solid;*/
+    /*border-width: 8px;*/
+    /*border-color: #1e798e;*/
+    background-color: white;
+    margin-left: -75px;
+    position: relative;
+    float: left;
+    left: 50%;
+}
+
+.editProfile_holder_password {
+
+    height: 300px;
+    border-bottom: 1px darkgray solid;
+    text-align: center
+}
+
+.editProfile_holder_email {
+    height: 150px;
+    width: 100%;
+    float: right;
+    text-align: center;
+}
+
+.editProfile_holder_password_title, .editProfile_holder_email_title {
+    width: 100%;
+    float: right;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.editProfile_holder_password_input, .editProfile_holder_email_input {
+    float: left;
+    width: 100%;
+    direction: rtl;
+    padding-top: 7px;
+    line-height: 44px;
+
+}
+
+.editProfile_holder_input {
+    width: 67%;
+    height: 30px;
+    font-size: 15px;
+    padding-right: 10px;
+    border-radius: 3px;
+    font-family: 'Open Sans Hebrew', sans-serif;
+}
+
+.editProfile_holder_input_button {
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #1e798e;
+    text-align: center;
+    line-height: 30px;
+    padding: 2px 6px 2px 6px;
+    color: white;
+    float: left;
+    width: 26%;
+    top: 5px;
+    text-align: center;
+    position: relative;
+    left: 120px;
+}
+
+.editProfile_password_comment, .editProfile_email_comment {
+    width: 100%;
+    float: left;
+    left: 50%;
+    padding-top: 8px;
+    font-size: medium;
+    color: #f15a22;
+    font-weight: 600;
+    display: none;
+}
+
+.editProfile_email_comment {
+    margin-top: 22px;
+}

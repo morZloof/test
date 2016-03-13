@@ -1,0 +1,416 @@
+.map{
+    width: 965px;
+    height: 444px;
+    min-height: 20px;
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+    margin-right:115px;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: absolute;
+    top:168px;
+    right: 0px;
+    transition:0.5s all;
+}
+.leaflet-top{
+  z-index: 0; 
+}
+.map_watchingMap{
+  cursor: default;
+  color: #1e798e;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: -27px;
+  left: -1px;
+  transition: 0.5s all;
+  background: #fafafa;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.map_goToNotebook{
+    cursor: pointer;
+    color: #1e798e;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: -27px;
+    left: 45px;
+    transition: 0.5s all;
+    background: #f1edec;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    z-index: -1;
+}
+.map_goToWar{
+  cursor: pointer;
+  color: #1e798e;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: -27px;
+  left: 98px;
+  transition: 0.5s all;
+  background: #f1edec;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  z-index: -1;
+}
+.map_goToNotebook:hover, .map_goToWar:hover{
+  color:#003466;
+}
+#map_canvas{
+  display: none;
+  border:1px solid #c3c3c3;
+  position:relative;
+  left:600px;
+  top:-700px;
+}
+.map:before{
+  top:10px;
+  bottom:10px;
+  border-radius: 15px / 100px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+  right:0;
+  left:0;
+}
+.map:before, .map:after{
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  z-index: -2 ;
+}
+.mapLarger{
+  width: calc(100% - 20px) !important;
+  /*height: -moz-calc(100% - 140px)!important;*/
+  /*height: -webkit-calc(100% - 140px)!important;*/
+  height: calc(100% + 60px)!important;
+  margin-right:0px!important;
+  right:0%!important;
+  top:0px!important;
+}
+#mapbox {    
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.map_controls_searchInput {    
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    height: 32px;
+    margin-left: 17px;
+    margin-top: 16px;
+    outline: none;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+    position: absolute;
+    z-index: 1000;
+    left: 295px;
+    top: 390px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    direction: rtl;
+    display: none;
+}
+
+.map_controls_searchInput:focus {
+	border-color: #4d90fe;
+}
+.map_controls_searchInput:-webkit-input-placeholder {
+	text-align: right;
+	font-size: 20;
+}
+.map_popup {
+    direction: rtl;
+}
+.map_popup_bidBtn,.map_popup_upgradeBtn,.map_popup_approve,.map_popup_cancel,.map_popup_resturantFactoryWar {
+  width: 100px;
+  height: 23px;
+  background: transparent;
+  text-align: center;
+  color:#1e798e;
+  border:1px solid #1e798e;
+  line-height: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-top: 5px;
+  margin: auto;
+}
+.map_popup_showUserBtn {
+  width: 100px;
+  height: 23px;
+  background: transparent;
+  text-align: center;
+  color:#1e798e;
+  line-height: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-top: 5px;
+  margin: auto;
+}
+.map_popup_showClanBtn {
+  width: 100px;
+  height: 23px;
+  background: transparent;
+  text-align: center;
+  color:#1e798e;
+  line-height: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+  margin: auto;
+  
+}
+.map_popup_cancel {
+  color:#c0392b;
+  border:1px solid #c0392b;
+  margin-top: 10px;
+}
+.map_popup_approve,.map_popup_showUserBtn {
+  margin-top: 10px;
+}
+.map_popup_userName {
+  cursor: pointer;
+  
+}
+/*MAPBOX TOOLTIP */
+.map .leaflet-popup-content-wrapper {
+  background:#f7f5f5;
+  color:#1e798e;
+  font-size:16px;
+  line-height:24px;
+  font-family: 'Open Sans Hebrew', sans-serif;
+  text-align: center;
+}
+.map .leaflet-popup-content-wrapper a {
+  color:rgba(255,255,255,0.5);
+}
+.map .leaflet-popup-tip-container {
+  width:30px;
+  height:15px;
+  
+}
+.map .leaflet-popup-tip {
+  border-left:15px solid transparent;
+  border-right:15px solid transparent;
+  border-top:15px solid #f7f5f5;
+}
+
+.map_note {
+    width:250px;
+    display: none;
+    font-size:20px;
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.3),0 0 40px rgba(128,128,128,.1)inset;
+    box-shadow: 0 1px 4px rgba(0,0,0,.3),0 0 40px rgba(128,128,128,.1)inset;
+    z-index: 2;
+    margin-left:-125px;
+    text-align: center;
+    position: absolute;
+    top:0px;
+    left:50%;
+    /*bottom: 305px;*/
+}
+.map_larger, .map_smaller, .map_zoomToMain{
+    color: #404040;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #fff;
+    z-index: 1;
+    border: 1px solid #999999;
+    border-radius: 4px;
+}
+.map_larger span, .map_smaller span, .map_zoomToMain span{
+    font-size: 15px;
+    position: relative;
+    left: 0;
+    padding: 7px 5.5px;
+}
+.map_smaller{
+  display: none;
+}
+.map_zoomToMain {
+    top:55px;
+}
+.leaflet-fade-anim .leaflet-map-pane .leaflet-popup, .leaflet-fade-anim .leaflet-tile-loaded {
+    bottom:10px !important;
+}
+
+/*MAPbox CONTROLLER*/
+
+.leaflet-left .leaflet-control {
+  margin-top: 80px;
+}
+.map_note_cancel {
+    width: 100px;
+    float: left;
+    left: 50%;
+    margin-left: 75px;
+    margin-top: 10px;
+    border: 1px solid #c0392b;
+    cursor: pointer;
+}
+.map_note_cancel:hover {
+  background: #c0392b;
+  color:#fff;
+}
+.map_searchBox {
+  display: none;
+  position: absolute;
+  width: 295px;
+  height: 30px;
+  float: right;
+  font-size: 20px;
+  top: 10px;
+  right: 10px;
+  text-align: right;
+  font-family: 'Open Sans Hebrew', sans-serif;
+  margin: 5px;
+  padding-right: 5px;
+  z-index: 2;
+}
+.map_mentor_level5{
+  display: none;
+  transform: rotate(-45deg);
+  font-size: 40px;
+  color: #f15a22;
+  margin-top:-50px;
+  margin-right:-50px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  z-index: 100;
+}
+.map_mentor_level5_1{
+  display: none;
+  transform: rotate(-45deg);
+  font-size: 40px;
+  color: #f15a22;
+  margin-top:-100px;
+  margin-right:-80px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  z-index: 100;
+}
+.map_mentor_level5_2{
+  display: none;
+  transform: rotate(-45deg);
+  font-size: 40px;
+  color: #f15a22;
+  margin-top:-80px;
+  margin-right:-80px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  z-index: 100;
+}
+.map_cssicon {
+  width: 100px;
+  height: 30px;
+  margin-top: -60px !important;
+  text-align: center;
+  color:#f7f5f5;
+  background: #74b06c;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px;
+  }
+  .map_cssicon:after {
+    content: ' ';
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #74b06c;
+    position: absolute;
+    left: 35%;
+    bottom: -10px;
+  }
+.map_cssicon2 {
+
+  background: #f15a22;
+
+  }
+.map_cssicon2:after {
+    border-top: 15px solid #f15a22;
+
+}
+  
+
+.map_cssupgrade {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color:#f7f5f5;
+  background: #74b06c;
+  border-radius: 5px;
+  font-size: 15px;
+  }
+  /*.map_cssupgrade:after {
+    content: ' ';
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #74b06c;
+    position: absolute;
+    left: 35%;
+    bottom: -10px;
+  }*/
+  /*WHAT WILL HAPPEN???*/
+  .leaflet-overlay-pane {
+     pointer-events: none;
+    
+  }
+
+/*THIS IS FOT THE CURSER TO BE CHANGED*/
+#curser_tail {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	float:left;
+	z-index: 1;
+	pointer-events: none;
+	display: none;
+    background-repeat: none;
+    background-size: cover;
+}
+/*USER CIRCLE*/
+.map_userCircle_father {
+  width: 50%;
+  perspective: 50em;
+  z-index: -100000000 !important;
+}
+
+.map_userCircle_child {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 8px solid rgba(116, 176, 108, 1);
+    border-radius: 50%;
+    margin-left: -45px;
+    margin-top: -20px;
+    -webkit-box-shadow: 1px 5px 0px 1px rgba(0,0,0,0.43);
+    -moz-box-shadow: 1px 5px 0px 1px rgba(0,0,0,0.43);
+    box-shadow: 1px 5px 0px 1px rgba(0,0,0,0.43);
+}
+
+.map_userCircle_father .map_userCircle_child {
+  transform: rotateX(50deg);
+}

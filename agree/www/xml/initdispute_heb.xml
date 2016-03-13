@@ -1,0 +1,22 @@
+<root>
+	<leaf name="initdispute_input_label">מהו השם הנכון למחלוקת? (עד 7 מילים)</leaf>
+	<leaf name="initdispute_subtitle_mediator">
+		אלו הסיפורים של הצדדים. יש ביניהם, כמובן, הבדלים, גם בתוכן וגם בסגנון.
+		אמרנו להם שזה טבעי, אבל בוודאי יהיה צורך לעסוק בזה גם בצ'אט.
+	</leaf>
+	<leaf name="initdispute_subtitle_side_part1">
+		זהו הסיפור שלך וזהו הסיפור של
+	</leaf>
+	<leaf name="initdispute_subtitle_side_part2">
+		מטבע הדברים, יתכן שיש הבדלים, אפילו  גדולים, בין הסיפורים, 
+		גם בתוכן וגם בסגנון. בדיוק בשביל זה הגעת ל- Agree OnlineTM. 
+		עכשיו הזמן להתחיל את תהליך יישוב המחלוקת ולשוחח עליה בצ'אט
+		עם המנחה ועם הצד השני
+	</leaf>
+	<leaf name="initdispute_read_and_understood">קראתי והבנתי את הצד של</leaf>
+	<leaf name="initdispute_story_of">הסיפור של</leaf>
+	<leaf name="initdispute_nickname_label">כינוי:</leaf>
+	<leaf name="initdispute_input_label_error">אי אפשר להמשיך, כי לא נתת שם למחלוקת עדיין :( </leaf>
+	<leaf name="initdispute_title_mediator">סיפור המחלוקת</leaf>
+	<leaf name="initdispute_btn">להמשיך למפגש בצ'אט עם שני הצדדים</leaf>
+</root>

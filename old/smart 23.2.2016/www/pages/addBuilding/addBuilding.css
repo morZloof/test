@@ -1,0 +1,333 @@
+.addBuilding{
+    /*width: 500px;*/
+    height: 100px;
+    position: absolute;
+    left: 225px;
+    bottom:0px;
+    transition:1s all;
+    z-index: 1;
+}
+.addBuildingAddClass{
+    top:auto;
+    left:30px !important;
+    bottom:-50px;
+}
+.addBuilding_row{
+	width: 94%;
+    text-align: right;
+    right: 5px;
+    position: relative;
+    float: right;
+    margin-top: 90px;
+    padding:5px 0px 5px 20px;
+	text-align: center;
+}
+.addBuilding_rowLoop{
+    width: 94%;
+    display:none;
+    text-align: right;
+    right: 5px;
+    position: relative;
+    float: right;
+    border-bottom: 1px solid #a6a5a8;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.addBuilding_row_price{
+	margin-top:10px;
+}
+.addBuilding_addNewHouse {
+    width:70px;
+    height:70px;
+    position: relative;
+    float:left;
+	cursor: pointer;	
+    z-index: 1;
+}
+.addBuilding_addNewHouse_button{
+    height:60px;
+    width:60px;
+    line-height: 60px;
+    vertical-align: middle;
+    text-align: center;
+    font-size:35px;
+    color:white;
+    background:#f1453d;
+    box-shadow: 0px 0px 5px rgba(0,0,0, .75);
+    border-radius: 50%;
+    margin-left:5px;
+    transition:0.3s all;
+    float:left;
+}
+.addBuilding_addNewHouse:hover .addBuilding_addNewHouse_button{
+    color:#eeeeee;
+    box-shadow: 0px 0px 15px rgba(0,0,0, .5);
+}
+
+.addBuilding_addNewHouse_text {
+    width:100%;
+    color: #f1453d;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    float:left;
+    bottom:0px;
+}
+.addBuilding_add_iconsList{
+    width: 100%;
+
+    z-index: 2;
+}
+.addBuilding_add_iconsList_oneIcon {
+    width: 189px;
+    height: 127px;
+    background-color: #fdde8c;
+    border-radius: 11px;
+    display: none;    
+    cursor: pointer;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right: 1%;
+    margin-left: 1%;
+    position: relative;
+    float: right;
+    text-align: center;
+    transition:0.4s all;
+}
+
+.addBuilding_add_iconsList_oneIcon:hover {
+    background-color: #f6cf69;
+}
+.addBuilding_add_iconsList_oneIcon:hover .addBuilding_add_iconsList_oneIcon_icon:nth-of-type(1)  {
+    height: 62px;
+    width: 62px;
+    margin-top: -40px;
+}
+.addBuilding_add_iconsList_oneIcon:hover .addBuilding_add_iconsList_oneIcon_text{
+    background-color: #f1b820;
+}
+.addBuilding_add_iconsList_oneIcon .glyphicon {
+    position: absolute;
+    left: 5px;
+    top: 12px;
+    z-index: 200;
+}
+.addBuilding_add_iconsList_oneIcon_icon_eliipse_qm {
+    display: block;
+}
+.addBuilding_add_iconsList_oneIcon_icon_eliipse .glyphicon {
+    top:3px;
+    left:3px;
+    display: none;
+    color:#fff;
+}
+.addBuilding_add_iconsList_oneIcon:nth-of-type(n+1) {
+    margin-right: 0px;
+}   
+.addBuilding_add_iconsList_oneIcon:nth-of-type(4n+1) {
+    margin-left: 0px;
+}   
+.addBuilding_add_iconsList_oneIcon_grayFilter {
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+.addBuilding_add_iconsList_oneIcon_icon {
+    width: 57px;
+    height: 57px;
+    position: relative;
+    object-fit: cover;
+    margin-top: -35px;
+    transition:0.4s all;
+}
+.addBuilding_add_iconsList_oneIcon_description {
+    display: none;
+    color: #333;
+    font-size: 13px;
+    font-weight: 700;
+}
+.addBuilding_add_iconsList_oneIcon_icon_eliipse {
+    position: absolute;
+    left:0;
+    top:0;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-color: #f77e51;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    top:7px;
+    left:8px;
+    z-index: 1000000;
+    transition:0.4s all;
+}
+.addBuilding_add_iconsList_oneIcon_icon_eliipse:hover {
+    background-color: #e6541e;
+    color:#fff;
+}
+.addBuilding_add_iconsList_oneIcon_name {
+    margin-top: -5px;
+    position: relative;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.addBuilding_add_iconsList_oneIcon_price {
+    text-align: center;
+    width: 100%;
+    font-size: 24px !important;
+    text-shadow: none;
+    color: #333;
+    font-weight: 700;
+}
+.addBuilding_add_iconsList_oneIcon_text {
+    width: 90%;
+    height: 35px;
+    position: absolute;
+    float: right;
+    text-align: right;
+    padding-right: 5%;
+    padding-left: 5%;
+    background: #fcce54;
+    bottom: 0;
+    line-height: 35px;
+    vertical-align: middle;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    transition:0.4s all;
+}
+.addBuilding_add_iconsList_oneIcon_error {
+    position: relative;
+    float: left;
+    font-size: 17px;
+    font-weight: 700;
+    direction: rtl;
+    display: none;
+    text-align: center;
+    width: 100%;
+    color:rgb(159, 159, 159);
+}
+.addBuilding_add_iconsList_oneIcon_numLeft, .addBuilding_add_iconsList_oneIcon_price, .addBuilding_add_iconsList_oneIcon_time {
+    position: relative;
+    float:left;
+    font-size: 17px;
+    font-weight: 700;
+    direction: rtl;
+}
+.addBuilding_add_iconsList_oneIcon_time span, .addBuilding_add_iconsList_oneIcon_numLeft span{
+    width: 92px;
+    height: 10px;
+    color: #333;
+    font-size: 12px;
+    font-weight: 700;
+    top: -2px;
+    position: relative; 
+}
+.addBuilding_add_iconsList_oneIcon_numLeft .addBuilding_add_iconsList_oneIcon_icon {
+    height: 20px !important;
+    width: 20px !important;;
+    top: 2px;
+} 
+.addBuilding_add_iconsList_oneIcon_time {
+    float:right;
+}
+.addBuilding_add_iconsList_oneIcon_price:before {
+    content:'₪';
+}
+.addBuilding_mentor_poniter{
+    transform: rotate(-45deg);
+    font-size: 40px;
+    display: none;
+    position: absolute;
+    color: #f15a22;
+    top: -30px;
+    left: 55px;
+    z-index: 1;
+}
+.addBuilding_mentor_level3_1{
+    transform: rotate(-45deg);
+    font-size: 40px;
+    display: none;
+    position: absolute;
+    color: #f15a22;
+    top: 15px;
+    right: 5px;
+    z-index: 1;
+}
+.addBuilding_mentor_level4{
+    transform: rotate(-45deg);
+    font-size: 40px;
+    display: none;
+    position: absolute;
+    color: #f15a22;
+    top: -12px;
+    right: 185px;
+    z-index: 1;
+}
+.addBuilding_mentor_level8{
+    transform: rotate(-45deg);
+    font-size: 40px;
+    display: none;
+    position: absolute;
+    color: #f15a22;
+    top: 12px;
+    left: 380px;
+    z-index: 1;
+}
+.addBuilding_addNewHouse_tooltipHolder{
+    width:100%;
+    height:380px;
+    position: absolute;
+    overflow:hidden;
+    bottom:0px;
+    left:-144px;
+}
+.addBuilding_addNewHouse_tooltip{
+    width: 780px;
+     display: none; 
+    padding: 20px;
+    /*text-shadow: 0 0 4px black;*/
+    color: #f1eff0;
+    background: rgba(255,255,255,0.9);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in;
+    position: absolute;
+    bottom: 111px;
+    left: -245px;
+    z-index: 10000000;
+}
+.addBuilding_addNewHouse_tooltip:before{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 100%;
+	right: 65%;
+    border-width: 6px 6px 0px 6px;
+    border-style: solid;
+	border-color: rgba(0, 0, 0, 0.1) transparent;
+}
+.addBuilding_addNewHouse_tooltip:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+    top: 100%;
+	right: 65%;
+    border-width: 10px 10px 0px 10px;
+	border-style: solid;
+	border-color: #fff transparent;
+}

@@ -1,0 +1,9 @@
+.notebookNav{
+    height:100px;
+    width:200px;
+    border:1px green solid;
+    position: fixed;
+    top:130px;
+    left:320px;
+    z-index: 1;
+}

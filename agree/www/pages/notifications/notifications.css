@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Almoni;
+    src: url(../../fonts/almoni-dl-aaa-web/font_files/almoni-dl-aaa-400.woff);
+}
+
+.notifications {
+	font-family: 'Open Sans Hebrew', serif;
+	margin: 0 auto;
+	width: 960px;
+	padding-top: 40px;
+	margin-bottom: 40px;
+}
+
+.notifications_title {
+	font-family: Almoni;
+	font-size: 32px;
+	font-weight: bold;
+	color: #3c3c3b;
+}
+
+.notifications_no_messages {
+	color: #706f6f;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 40px;
+	display: none;
+}
+
+.notifications_container {
+	margin-top: 30px;
+}
+
+#notifications_notification_master {
+	display: none;
+}
+
+.notifications_notification {
+	margin-bottom: 0;
+	border-bottom: 1px solid #CACACA;
+	padding: 15px;
+	padding-top: 0;
+	padding-bottom: 10px;
+	background-position: left 10px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	position: relative;
+}
+
+.notifications_notification.imageType1 {
+	background-image: url('../../images/notifications/hands.png');
+}
+
+.notifications_notification.imageType2 {
+	background-image: url('../../images/notifications/yellow-circle.png');
+}
+
+.notifications_points_won {
+	font-family: Almoni;
+	font-weight: bold;
+	font-size: 30px;
+	position: absolute;
+	left: 19px;
+	top: 15px;
+}
+
+.notifications_points_won_label {
+	font-family: Almoni;
+	font-weight: bold;
+	font-size: 16px;
+	position: absolute;
+	left: 10px;
+	top: 40px;
+}
+
+.notifications_notification.imageType3 {
+	background-image: url('../../images/notifications/level1.png');
+}
+.notifications_notification.imageType4 {
+	background-image: url('../../images/notifications/level2.png');
+}
+.notifications_notification.imageType5 {
+	background-image: url('../../images/notifications/level3.png');
+}
+
+.notifications_notification_title {
+    /*opacity:0;*/
+	color: #3c3c3a;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.notifications_notification_subtitle {
+	color: #3c3c3a;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+
+/*}*/
+/*.notifications_notification_subtitleAddClass{*/
+    color: #393939;
+	font-size: 16px;
+	margin-top: 5px;
+}
+.notifications_notification_time {
+	color: #9f9f9f;
+	font-size: 12px;
+	margin-top: 5px;
+}
+.notifications_notification_points{
+    width:58px;
+    display: none;
+    position: absolute;
+    color:black;
+    top:17px;
+    left:0px;
+    font-size:28px;
+}
+.notifications_notification_points_num{
+    text-align: center;
+    font-weight: bold;
+    font-size:22px;
+}
+.notifications_notification_points_text{
+    font-size:12px;
+    text-align:center;   
+}

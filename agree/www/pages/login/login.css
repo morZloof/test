@@ -1,0 +1,85 @@
+.loginHolder{
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	z-index: 100;
+}
+.login{
+	height:300px;
+	width:500px;
+	border:1px black solid;
+	background:white;
+	margin-top:-120px;
+	margin-left:-250px;
+	position: absolute;
+	float:left;
+	top:50%;
+	left:50%;
+}
+.login_close{
+	color:white;
+	cursor: pointer;
+	position: absolute;
+	transition:0.3s all;
+	top:5px;
+	left:5px;
+}
+.login_close:hover{
+	color:#A9C60E;
+}
+.login_title{
+	height:40px;
+	font-size:25px;
+	vertical-align: middle;
+	line-height:40px;
+	background:#333333;
+	color:white;
+	text-align: center;
+}
+.login_inputHolders{
+	width:100%;
+	margin-top:20px;
+	float:left;
+}
+.login_input{
+	width: 336px;
+	font-family: 'Open Sans Hebrew', serif;
+	display: block;
+	font-size: 16px;
+	padding-right: 14px;
+	text-align: center;
+	margin: 0 auto;
+	border: 1px solid #CACACA;
+	margin-top: 25px;
+	height: 37px;
+}
+.input_error{
+	width:100%;
+	display: none;
+	text-align: center;
+	color:red;
+	position: absolute;
+	float:left;
+	top:198px;
+}
+.login_submit{
+	width:150px;
+	height:40px;
+	cursor: pointer;
+	line-height: 40px;
+	text-align: center;
+	vertical-align: mmiddle;
+	color:white;
+	font-weight: bold;
+	background:#333333;
+	margin-top:30px;
+	margin-left:-75px;
+	position: relative;
+	transition:0.5s all;
+	float:left;
+	left:50%;
+}
+.login_submit:hover{
+	background:#A9C60E;
+}

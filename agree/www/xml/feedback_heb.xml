@@ -1,0 +1,17 @@
+<root>
+	<leaf name="feedback_header_title">משוב</leaf>
+	<leaf name="feedback_header_subtitle">אנא ענו על השאלות הבאות:</leaf>
+	<leaf name="feedback_category_question_1">דרג את חווית השימוש שלך במערכת</leaf>
+	<leaf name="feedback_category_question_2">דרג את שביעות הרצון של מהמגשר</leaf>
+	<leaf name="feedback_category_question_3">האם ההצעות מהקהל אכן עזרו במציאת פתרון?</leaf>
+	<leaf name="feedback_category_question_4">האם יש לך הצעות לשיפור המערכת? אם כן, אנא הוסף אותן כאן</leaf>
+	<leaf name="feedback_category_question_5">האם יש לך הערות למנחה? אם כן, אנא הוסף אותן כאן</leaf>
+	<leaf name="feedback_textarea_start_writing_here">התחל לכתוב כאן</leaf>
+	<leaf name="feedback_send">שליחה</leaf>
+	<leaf name="feedback_category_ranking_labels_terrible">גרועה</leaf>
+	<leaf name="feedback_category_ranking_labels_great">נהדרת</leaf>
+	<leaf name="feedback_category_ranking_labels_low">נמוכה</leaf>
+	<leaf name="feedback_category_ranking_labels_high">גבוהה</leaf>
+	<leaf name="feedback_category_ranking_labels_not_at_all">בכלל לא</leaf>
+	<leaf name="feedback_category_ranking_labels_very_mcuh">מאוד</leaf>
+</root>

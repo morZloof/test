@@ -1,0 +1,156 @@
+.chat{
+	height:335px;
+	width:290px;
+	display: none;
+	border-radius: 8px 8px 0px 0px;
+	border:1px #348ecc solid;
+	background:#394f66;
+	margin-right:20px;
+	position: fixed;
+	float:right;
+	right:100px;
+	bottom:50px;
+	z-index: 1;
+	transition:0.5s all;
+}
+.chat1{
+	right:410px;
+}
+.chatBoxHide{
+	bottom:-264px;
+}
+.chatBox_title{
+	width:100%;
+	height:24px;
+	cursor: pointer;
+	border-radius: 7px 7px 0px 0px;
+	text-align: center;
+	color:white;
+	line-height: 24px;
+	vertical-align: middle;
+	background:#2a80b9;
+	position: relative;
+	float:left;
+}
+.chatBox_title_close{
+	font-size:14px;
+	cursor: pointer;
+	position: absolute;
+	left:5px;
+	top:1px;
+	transition:0.5s all;
+}
+.chatBox_title_close:hover{
+	color:#c0392b;
+}
+.chatBox_text{
+	width:100%;
+	height:266px;
+	overflow:scroll;
+	float:left;
+}
+.chatBox_textHolder{
+	float:left;
+	width:100%;
+}
+.chatBox_text_message{
+	width:90%;
+	display: none;
+	padding:0px 5% 0px  5%;
+	padding-bottom:10px;
+	background:#394f66;
+	float:left;
+}
+.chatBox_text_messageMy{
+	width:90%;
+	display: none;
+	padding:0px 5% 0px  5%;
+	padding-bottom:10px;
+	background:#34495e;
+	float:left;
+}
+.chatBox_text_message_date{
+	font-size:13px;
+	margin:5px 0px -5px 0px;
+	color:#829dbb;	
+}
+.chatBox_text_message_textHolder{
+	width:100%;
+	margin-top:10px;
+	float:left;
+}
+.chatBox_text_message_text{
+	direction: rtl;
+	text-align: right;
+	color:white;
+	background:#1eb9bd;
+	padding: 10px 20px 10px 20px;
+	border-radius: 7px;
+	font-size:15px;
+	float:left;
+}
+.chatBox_text_messageMy_text{
+	direction: rtl;
+	text-align: right;
+	color:#151723;
+	background:white;
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+	font-size:15px;
+	float:right;
+}
+.chatBox_text_message_date{
+	width:100%;
+	text-align: center;
+	font-size:12px;
+	float:left;
+}
+.chatBox_sendBox{
+	width:90%;
+	height:45px;
+	background:#2d3e50;
+	padding:0px 5% 0px 5%;
+	position: relative;
+	float:left;
+	bottom:0px;
+}
+.chatBox_sendBox_textarea{
+	height:16px;
+	width:190px;
+	resize: none;
+	border-radius: 20px;
+	border:none;
+	margin-top:8px;
+	direction:rtl;
+	padding: 7px 10px 7px 10px;;
+	text-align:right;
+	position: relative;
+	float:right;
+	/*top:50%;*/
+}
+.chatBox_sendBox_textarea:focus{
+	outline: 0;
+}
+.chatBox_sendBox_send{
+	height:30px;
+	cursor: pointer;
+	line-height: 30px;
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+	background:#368fcb;
+	color:white;
+	border-radius: 10px ;
+	padding:0px 5px 0px 5px;
+	margin-top:-15px;
+	transition:0.3s all;
+	position: relative;
+	float:left;
+	top:50%;
+}
+.chatBox_sendBox_send:hover{
+	/*background:	*/
+}
+.chatBox_sendBox_otherUserId{
+	display: none;
+}

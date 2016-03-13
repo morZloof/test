@@ -1,0 +1,140 @@
+.runningTimes{
+   	width: 230px;
+    height: 125px;
+    display: block;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 24px;
+    position: fixed;
+    top: 510px;
+    left: 40px;
+}
+
+.runningTimes:before{
+    background: #fafafa;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    left: 2px;
+    top: 0px;
+    transform: rotate(-3.5deg);
+}
+
+.runningTimes:before, .mentor:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.runningTimes_type {
+	text-align: center;
+	float:right;
+}
+.runningTimes_timer {
+	font-weight: bold;
+    text-align: center;
+	float:right;
+}
+.runningTimes_oneBuilding {
+	padding-bottom: 20px;
+	position: relative;
+}
+.runningTimes_finishWithRep {
+	height: 20px;
+	margin-right:5px;
+	position: relative;
+	float:right;
+	cursor: pointer;
+}
+.runningTimes_loop_icon{
+	height:31px;
+	width:26px;
+	line-height:26px;
+	font-size:14px;
+	vertical-align: middle;
+	background-image:url('/www/images/runningTimes/numbers.png');
+	color:white;
+	text-align:center;
+	position:absolute;
+	top:7px;
+	right:2px;
+	z-index:10;
+}
+.runningTimes_finishWithRep {
+    height: 30px;
+    width: 30px;
+    font-size: 14px;
+    vertical-align: middle;
+    background-image: url('/www/images/runningTimes/star.png');
+    text-align: center;
+    top: -5px;
+    z-index: 10;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.runningTimes_finishWithRep span {
+    position: relative;
+    float: left;
+    font-size: 15px;
+    left: -5px;
+    top: 10px;
+    color: #fff;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+/*for the mentor*/
+.runningTimes_level9Hez{
+    transform: rotate(-45deg);
+    font-size: 40px;
+    display: none;
+    position: absolute;
+    color: #f15a22;
+    top: -11px;
+    right: -5px;
+    z-index: 1;
+}
+.runningTimes_level9_1Hez{
+    display: none;
+    transform: rotate(-45deg);
+    font-size: 40px;
+    position: absolute;
+    color: #f15a22;
+    top: -10px;
+    left: 95px;
+    z-index: 1;
+}
+.runningTimes_level9_text{
+	width: 320px;
+    direction: rtl;
+    text-align:center;
+	display: none;
+	padding:10px;
+	color:#1e798e;
+	background: rgba(255,255,255,0.9);
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.17);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	transition: all 0.5s ease-in;
+	position: fixed;
+    top: 370px;
+	left: 313px;
+    z-index: 1000001;
+}
+.runningTimes_level9_text_submit{
+    width:60px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding:5px; 
+    font-size:18px;
+    background:#1e798e;
+    color:white;
+    margin-top:20px;
+    margin-left:-30px;
+    position: relative;
+    float:left;
+    left:50%;
+}

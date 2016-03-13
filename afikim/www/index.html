@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+		<script src="/www/jquery/socket.io.js"></script>
+		<script src="/www/jquery/delivery.js"></script>
+		<script src="/www/load.js"></script>
+		<script src="/www/pages.js"></script>
+		<script src="/www/global.js"></script>
+		<link rel="stylesheet" href="/www/style.css">
+
+		<link rel="stylesheet" href="/www/header/header.css">
+		<script src="/www/header/header.js"></script>
+		
+		<link rel="stylesheet" href="/www/menu/menu.css">
+		<script src="/www/menu/menu.js"></script>
+		
+		<link rel="stylesheet" href="/www/tpasim/tpasim.css">
+		<link rel="stylesheet" href="/www/tpasim/tpasim_body_temps/tpasim_body_temps.css">
+		<link rel="stylesheet" href="/www/tpasim/tpasim_body_temps_maharah/tpasim_body_temps_maharah.css">
+		<script src="/www/tpasim/tpasim_body_temps_maharah/tpasim_body_temps_maharah.js"></script>
+		<script src="/www/tpasim/tpasim.js"></script>
+		<script src="/www/tpasim/tpasim_body_temps/tpasim_body_temps.js"></script>
+		
+		<link rel="stylesheet" href="/www/users/users.css">
+		<script src="/www/users/users.js"></script>
+		<script src="/www/editProfile/editProfile.js"></script>
+		
+		<link rel="stylesheet" href="/www/login/login.css">
+		<script src="/www/login/login.js"></script>
+		
+		<link rel="stylesheet" href="/www/news/news.css">
+		<script src="/www/news/news.js"></script>
+		
+		<link rel="stylesheet" href="/www/comfirm/comfirm.css">
+		<script src="/www/comfirm/comfirm.js"></script>
+		<link rel="stylesheet" href="/www/comfirm/comfirm_box/comfirm_box.css">
+		
+		<link rel="stylesheet" href="/www/bootstrap/css/bootstrap-theme.css">
+		<link rel="stylesheet" href="/www/bootstrap/css/bootstrap.css">
+		
+		<script type="text/javascript" src="/www/ckeditor/ckeditor.js"></script>
+		<script type="text/javascript" src="/www/jquery.fileupload.js"></script>
+		
+		<script>
+		  $(function(){
+			//   var socket = io.connect('http://127.0.0.1:3000');
+			  var socket = io.connect('http://84.95.247.49/');
+			  
+			  socket.on('connect', function(){
+			    var delivery = new Delivery(socket);
+			    delivery.on('delivery.connect',function(delivery){
+			      $(".tpasim_body_addFile_submit1").click(function(evt){
+					var file1 = $(".tpasim_body_addTopas_file1")[0].files[0];
+			        delivery.send(file1);
+			        evt.preventDefault();
+			      });
+				   $(".tpasim_body_addFile_submit2").click(function(evt){
+					var file2 = $(".tpasim_body_addTopas_file2")[0].files[0];
+			        delivery.send(file2);
+			        evt.preventDefault();
+			      });
+			      $(".tpasim_body_addFile_submit3").click(function(evt){
+					  	var file3 = $(".tpasim_body_addTopas_file3")[0].files[0];
+			        	delivery.send(file3);
+			        	evt.preventDefault();
+			      });
+				  
+				  $(".tpasim_body_addFile_submit4").click(function(evt){
+					  	var file4 = $(".tpasim_body_addTopas_file4")[0].files[0];
+			        	delivery.send(file4);
+			        	evt.preventDefault();
+			      });
+				  
+				  $(".tpasim_body_temps_maharah_row_save1").click(function(evt){
+					  	var file1 = $(".tpasim_body_temps_maharah_row_inputFile1")[0].files[0];
+			        	delivery.send(file1);
+			        	evt.preventDefault();
+			      });
+				  
+				   $(".tpasim_body_temps_maharah_row_save2").click(function(evt){
+					  	var file2 = $(".tpasim_body_temps_maharah_row_inputFile2")[0].files[0];
+			        	delivery.send(file2);
+			        	evt.preventDefault();
+			      });
+				  
+				   $(".tpasim_body_temps_maharah_row_save3").click(function(evt){
+					  	var file3 = $(".tpasim_body_temps_maharah_row_inputFile3")[0].files[0];
+			        	delivery.send(file3);
+			        	evt.preventDefault();
+			      });
+				  
+				   $(".tpasim_body_temps_maharah_row_save4").click(function(evt){
+					  	var file4 = $(".tpasim_body_temps_maharah_row_inputFile4")[0].files[0];
+			        	delivery.send(file4);
+			        	evt.preventDefault();
+			      });
+			    });
+			 
+			    delivery.on('send.success',function(fileUID){
+			      console.log("file was successfully sent.");
+			    });
+			  });
+			  
+			});
+		</script>
+		
+	</head>
+	<body>
+		<div class="header"></div>
+		<div class="menu"></div>
+		
+		<div class="news global_hide"></div>
+		<div class="tpasim global_hide"></div>
+		<div class="users global_hide"></div>
+		<div class="comfirm global_hide"></div>
+		<div class="comfirm_box"></div>
+		<div class="login"></div>
+	</body>
+</html>

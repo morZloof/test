@@ -1,0 +1,24 @@
+<root>
+	<leaf name="header_profile_change_password_label">שינוי סיסמה</leaf>
+	<leaf name="header_profile_achivments_label">ההישגים שלך</leaf>
+	<leaf name="header_profile_points_label">נקודות</leaf>
+	<leaf name="header_profile_active_disputes_label">סכסוכים פעילים</leaf>
+	<leaf name="header_profile_next_level_label">ההישג הבא</leaf>
+    
+    <leaf name="header_profile_next_level_level0">
+        עדיין אין לך עיטור!
+        אבל, חסרות לך רק 1234 נקודות לקבלת פטיש שופטים!
+    </leaf>
+    <leaf name="header_profile_next_level_level1">
+        כל הכבוד! יש לך פטיש
+        שופטים. חסרות לך 1234 נקודות לקבלת מאזניים!
+    </leaf>
+    <leaf name="header_profile_next_level_level2">
+        התקדמת! עכשיו יש לך
+        כבר מאזני צדק. חסרות  לך 1234 נקודות לקבלת פאת שופטים!
+    </leaf>
+    <leaf name="header_profile_next_level_level3">
+        וואו, הגעת לשיא, יש
+        לך פאת שופטים! זהו העיטור הגבוה ביותר במערכת!
+    </leaf>
+</root>

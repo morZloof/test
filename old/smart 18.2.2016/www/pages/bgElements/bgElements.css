@@ -1,0 +1,50 @@
+.bgElements{
+	width:100%;
+	height: 100%;
+	display: block;
+	position:fixed;
+	z-index:-100;
+}
+.bgElements_plant {
+	width: 285px;
+	height: 300px;
+	position: absolute;
+	background-image:url('../../images/bgElements/plant.png');
+	background-size: 100% 100%; 
+	background-size: 80%;
+	background-repeat: no-repeat;
+    right: -170px;
+    top: 165px;
+}
+.bgElements_kabel {
+	width: 262px;
+	height: 254px;
+	position: absolute;
+	background-image:url('../../images/bgElements/kabel.png');
+	background-size: 80%;
+	background-repeat: no-repeat;
+	right:-185px;
+	bottom: -30px;
+}
+.bgElements_keyboard{
+	width: 494px;
+	height: 352px;
+	position: absolute;
+	background-image:url('../../images/bgElements/keyboard.png');
+	background-size: 80%;
+	background-repeat: no-repeat;
+	left:-185px;
+	bottom: -157px;
+}
+
+.bgElements_notePad {
+    display: none;
+    width: 500px;
+    height: 540px;
+    position: fixed;
+    background-image: url('../../images/bgElements/notePens3.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    left: -32px;
+    top: 430px;
+}

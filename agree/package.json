@@ -1,0 +1,12 @@
+{
+  "name": "Elastic-Beanstalk-Sample-App",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "pg": "4.4.1",
+    "sha256": "^0.2.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}

@@ -1,0 +1,78 @@
+.comfirm{
+	width:75%;
+	/*display:none;*/
+	margin-top:38px;
+	text-align:right;
+	position:relative;
+	right:3%;
+	float:right;
+}
+.comfirm_body{
+	width:100%;
+	overflow:scroll;
+	min-height:500px;
+	padding:15px;
+	border:1px #dee9ed solid;	
+	margin-bottom:20px;
+	float:right;
+}
+.comfirm_body_title{
+	font-size:18px;
+	float:right;
+}
+.comfirm_body_text{
+	color:rgb(100,100,100);
+	margin-top:20px;
+}
+.comfirm_body_holder{
+	width:60%;
+	float:right;	
+}
+.comfirm_editorHolder{
+	width:100%;
+	margin-top:10px;
+	float:right;
+}
+.comfirm_submit{
+	height:38px;
+	width:130px;
+	border:1px #93c1d4 solid;
+	cursor:pointer;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height:40px;
+	background:#2386af;
+	font-size:20px;
+	color:white;
+	text-align:center;
+	margin-top:20px;
+	margin-right:-65px;
+	position:relative;
+	float:right;
+	right:50%;
+	transition:0.3s all;
+}
+.comfirm_submit:hover{
+	border:1px #2386af solid;
+	background:#4fa0c2;
+	color:white;
+}
+.comfirm_loader{
+	display:none;
+	position:relative;
+	float:left;
+	top:27px;
+	left:195px;
+}
+.comfirm_ok{
+	border-radius: 50%;
+	display:none;
+	border:2px #2386af solid;
+	background:#2386af;
+	color:rgb(240,240,240);
+	padding:15px;
+	position:relative;
+	float:left;
+	top:13px;
+	left:165px;
+}

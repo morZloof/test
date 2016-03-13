@@ -1,0 +1,33 @@
+<root>
+	<leaf name="all_disputes_title">רשימת מחלוקות</leaf>	
+	<leaf name="all_disputes_body_subtitle">רשימת מחלוקות</leaf>	
+	<leaf name="all_disputes_body_sort_by_label">אפשרויות סינון מתקדמות</leaf>
+	<leaf name="all_disputes_body_sort_by_tooltip_header">סינון לפי:</leaf>
+	<leaf name="all_disputes_body_sort_by_tooltip_new_first">חדשים קודם</leaf>	
+	<leaf name="all_disputes_body_sort_by_tooltip_hot_first">בוערים קודם</leaf>	
+	<leaf name="all_disputes_body_sort_by_tooltip_total_votes">מספר קולות</leaf>	
+	<leaf name="all_disputes_body_sort_by_tooltip_favs_first">מועדפים קודם</leaf>	
+	<leaf name="all_disputes_body_sort_by_tooltip_total_brainstorms">מספר הצעות</leaf>
+	<leaf name="all_disputes_body_view_by_subtitle">תצוגה לפי</leaf>
+	<leaf name="all_disputes_body_view_by_options_option_commercial">מסחרי</leaf>
+	<leaf name="all_disputes_body_view_by_options_option_relations">יחסים</leaf>
+	<leaf name="all_disputes_body_view_by_options_option_virtual">וירטואלי</leaf>
+	<leaf name="all_disputes_body_view_by_options_option_accomodation">מגורים</leaf>
+	<leaf name="all_disputes_body_disputes_dispute_goto_label">יש מספיק!</leaf>
+	<leaf name="all_disputes_body_disputes_dispute_goto_label_help">להצעת פתרון</leaf>
+	<leaf name="all_disputes_feels">מרגיש/ה</leaf>
+	<leaf name="all_disputes_votes">קולות</leaf>
+	<leaf name="all_disputes_brainstorms">הצעות</leaf>
+	<leaf name="all_disputes_body_disputes_dispute_mediator_label">מנחה: </leaf>
+	<leaf name="all_disputes_youve_reached_new_achivment">הרגע הגעת להישג חדש</leaf>
+	<leaf name="all_disputes_in_this_dispute">בסכסוך על טבעת הנישואין</leaf>
+	<leaf name="all_disputes_you_got">קיבלת</leaf>
+	<leaf name="all_disputes_new_points">נקודות חדשות.</leaf>
+	<leaf name="all_disputes_wig_on_profile">מעכשיו, פאה תעטר את ציור הפרופיל שלך</leaf>
+	<leaf name="all_disputes_popup_close_btn">סגור</leaf>
+	<leaf name="all_disputes_popup_my_area_btn">האיזור האישי</leaf>
+	<leaf name="alldisputes_commercial">מסחרי</leaf>
+	<leaf name="alldisputes_relations">יחסים</leaf>
+	<leaf name="alldisputes_virtual">וירטואלי</leaf>
+	<leaf name="alldisputes_accomodation">מגורים</leaf>
+</root>

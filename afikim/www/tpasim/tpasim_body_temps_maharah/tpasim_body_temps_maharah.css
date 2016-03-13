@@ -1,0 +1,215 @@
+.tpasim_body_temps_maharah{
+	display:none;
+}
+.tpasim_body_temps_maharah_row{
+	width:100%;
+	margin-top:20px;
+	margin-right:10px;
+	float:right;
+}
+.tpasim_body_temps_maharah_row_select{
+	height:30px;
+	width:220px;
+	text-align:right;
+	direction:rtl;
+	padding-right:10px;
+	font-size:15px;
+	border:1px rgb(200,200,200) solid;
+	margin-right:48px;
+	position:relative;
+	float:right;
+	top:-5px;
+	transition:0.5s all;
+}
+.tpasim_body_temps_maharah_row_selectTwo2{
+	display:none;
+}
+.tpasim_body_temps_menuHeader_menu2{
+	max-height:100px;
+	overflow: hidden;
+}
+.tpasim_body_temps_maharah_row_selectTwo{
+	height:30px;
+	width:220px;
+	margin-right:21px;
+	text-align:right;
+	direction:rtl;
+	padding-right:10px;
+	font-size:15px;
+	border:1px rgb(200,200,200) solid;
+	position:relative;
+	float:right;
+	top:-5px;
+	transition:0.5s all;
+}
+.tpasim_body_temps_maharah_row_submit1{
+	height:38px;
+	width:130px;
+	border:1px #93c1d4 solid;
+	margin-bottom:10px;
+	cursor:pointer;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height:40px;
+	background:#2386af;
+	font-size:20px;
+	color:white;
+	text-align:center;
+	margin-top:2px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	left:-5px;
+	transition:0.3s all;
+}
+.tpasim_body_temps_maharah_row_submit1:hover{
+	border:1px #2386af solid;
+	background:#4fa0c2;
+	color:white;
+}
+.tpasim_body_temps_maharah_row_loader100{
+	display:none;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-42px;
+	margin-bottom:15px;
+	position:relative;
+	left:-100px;
+	/*left:50%;*/
+}
+.tpasim_body_temps_maharah_row_ok{
+	border-radius: 50%;
+	display:none;
+	border: 2px #2386af solid;
+	background: #2386af;
+	color: rgb(240, 240, 240);
+	padding: 15px;
+	margin-left:-130px;
+	position: relative;
+	float: left;
+	margin-top: -55px;
+	left: 50%;
+}
+.tpasim_body_temps_maharah_row_nameRow{
+	width:100%;
+	display:none;
+	margin-top:10px;
+	float:right;
+}
+.tpasim_body_temps_maharah_row_textView{
+	position:relative;
+	right:4px;
+}
+.tpasim_body_temps_maharah_row_name{
+	float:right;
+}
+.tpasim_body_temps_maharah_row_text{
+	margin-right:10px;
+	float:right;
+}
+.tpasim_body_temps_maharah_row_input{
+	width:200px;
+	height:30px;
+	margin-right:15px;
+	position:relative;
+	float:right;
+	top:-6px;
+}
+.tpasim_body_temps_maharah_row_textareaHolder{
+	width:700px;
+	margin-right:15px;
+	float:right;
+}
+.tpasim_body_temps_maharah_fileRow{
+	width:100%;
+	border-top:1px black solid;
+	margin-top:10px;
+	padding-top:10px;
+	float:left;
+}
+.tpasim_body_temps_maharah_row_download{
+	border:2px rgb(100,100,100) solid;
+	color:rgb(100,100,100);
+	cursor: pointer;
+	border-radius: 20px;
+	padding:8px;
+	margin-top:5px;
+	margin-right:70px;
+	float:right;
+	transition:0.3s all;
+}
+.tpasim_body_temps_maharah_row_download:hover{
+	background:rgb(100,100,100);
+	color:white;
+}
+.tpasim_body_temps_maharah_row_delete{
+	border:2px #e1424d solid;
+	color:#e1424d;
+	cursor: pointer;
+	border-radius: 20px;
+	padding:8px;
+	margin-top:5px;
+	margin-right:20px;
+	float:right;
+	transition:0.3s all;
+}
+.tpasim_body_temps_maharah_row_delete:hover{
+	background:#e1424d;
+	color:white;
+}
+.tpasim_body_temps_maharah_row_inputFile{
+	position:relative;
+	float:right;
+	right:10px;
+}
+.tpasim_body_temps_maharah_row_save{
+	border:2px #1ECD97 solid;
+	color:#1ECD97;
+	cursor: pointer;
+	border-radius: 20px;
+	padding:8px;
+	margin-top:5px;
+	margin-right:20px;
+	float:right;
+	transition:0.3s all;
+}
+.tpasim_body_temps_maharah_row_save:hover{
+	background:#1ECD97;
+	color:white;
+}
+.tpasim_body_temps_maharah_row_loader {
+	font-size: 7px;
+	width: 1em;
+	height: 1em;
+	display:none;
+	border-radius: 50%;
+	position: relative;
+	text-indent: -9999em;
+	-webkit-animation: load4 1.3s infinite linear;
+	animation: load4 1.3s infinite linear;
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+	position:relative;
+	float:right;
+	top:17px;
+	right:40px;
+}
+.tpasim_body_temps_maharah_row_loader1{
+	font-size: 7px;
+	width: 1em;
+	height: 1em;
+	display:none;
+	border-radius: 50%;
+	position: relative;
+	text-indent: -9999em;
+	-webkit-animation: load4 1.3s infinite linear;
+	animation: load4 1.3s infinite linear;
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+	position:relative;
+	float:right;
+	top:17px;
+	right:160px;
+}

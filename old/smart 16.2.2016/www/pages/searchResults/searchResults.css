@@ -1,0 +1,124 @@
+.searchResults{
+	width:100%;
+	position:realtive;
+	background: #f2efec;
+	margin-top: 20px;
+	z-index: 100;
+	overflow: scroll;
+}
+.searchResults_main {
+	width: 1080px;
+	position: relative;
+	float:left;
+	left:50%;
+	margin-left: -540px;	
+}
+.searchResults_title {
+	text-shadow: 0 0 4px black;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 700;
+	position: relative;	
+	float:right;
+	text-align: right;
+	margin-bottom: 20px;
+}
+.searchResults_title span {
+	text-shadow: none;
+	color: #1e798e;
+	font-size: 22px;
+	font-weight: 400;
+	position: relative;
+	float:left;
+	margin-right: 7px;
+}
+.searchResults_numOfUsersResult, .searchResults_numOfClansResult {
+	width: 100%;
+	color: #1e798e;
+	font-size: 21px;
+	font-weight: 400;
+	position: relative;	
+	float:right;
+	text-align: right;
+	margin-bottom: 20px;
+}
+.searchResults_numOfUsersResult span, .searchResults_numOfClansResult span {
+	color: #f15a22;
+	font-size: 21px;
+	font-weight: 400;
+	position: relative;
+	float:right;
+	margin-left: 7px;
+}
+.searchResults_oneUserResult,.searchResults_oneClanResult  {
+	width: 100%;
+	height: 270px;
+	background: #fff;
+	position: relative;
+	float:left;
+	margin-bottom: 15px;
+	display: none;
+}
+.searchResults_oneUserResult img, .searchResults_oneClanResult img {
+	width: 270px;
+	height: 270px;
+	position: relative;
+	float:right;
+	object-fit: cover;
+}
+.searchResults_oneResult_title, .searchResults_oneResult_details {
+	width: 700px;
+	position: relative;
+	float:right;
+	color: #1e798e;
+	font-size: 21px;
+	font-weight: 400;
+	text-align: right;
+	margin-right: 35px;
+	margin-top: 20px;
+}
+.searchResults_oneResult_title_name, .searchResults_oneResult_title_details, .searchResults_oneResult_title_details_city, .searchResults_oneResult_title_details_age {
+	position: relative;
+	float:right;
+	margin-left: 5px;
+}
+.searchResults_oneResult_title_details_clan:after {
+	content:']'
+}
+
+.searchResults_oneResult_title_details_clan:before {
+	content:'['
+}
+.searchResults_oneResult_details {
+	color: #1e798e;
+	font-size: 16px;
+	font-weight: 400;
+}
+.searchResults_oneResult_details_oneField_value {
+	color: #f15a22;
+}
+
+.searchResults_oneResult_btns {
+    width: 270px;
+    height: auto;
+    position: absolute;
+    float: left;
+    bottom: 0px;
+    left: 20px;
+}
+
+.searchResults_oneResult_btns_oneBtn {
+    font-size:22px;
+    font-weight: bold;
+    border-radius: 3px;
+    background: #1e798e;
+    color:#f8f6f6;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;  
+    position: relative;
+	margin: 5px 5px 5px 0px;
+	cursor: pointer;
+	padding: 0px 5px 0px 5px;
+	float:left;
+}

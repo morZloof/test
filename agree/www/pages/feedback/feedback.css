@@ -1,0 +1,109 @@
+.feedback {
+	width: 960px;
+	margin: 0 auto;
+	font-family: Almoni;
+	margin-bottom: 90px;
+	font-size: 18px;
+}
+
+.feedback_container {
+	margin-top: 15px;
+	width: 784px;
+}
+
+.feedback_header {
+	border-bottom: 2px solid #CCC;
+	box-sizing: border-box;
+	padding-bottom: 15px;
+}
+
+.feedback_header_title {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.feedback_category {
+	margin-top: 30px;
+}
+
+.feedback_category_ranking_container {
+	margin-top: 30px;
+	box-sizing: border-box;
+}
+
+.feedback_category_rank {
+	line-height: 48px;
+	text-align: center;
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+	margin-left: 29px;
+	background-color: #F7F8F2;
+	border: 1px solid #E5E6E1;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition:0.5s all;
+}
+
+.feedback_category_rank:last-child {
+	margin-left: 0;
+}
+
+.feedback_category_rank:hover, .feedback_category_rank.selected {
+	background-color: #03AEFC;
+	color: white;
+}
+
+.feedback_category_ranking_labels_container {
+	margin-top: 10px;
+	display: block;
+	height: 10px;
+	margin-bottom: 60px;
+	color: #CACACA;
+	text-align: center;
+	font-size: 16px;
+}
+
+.feedback_category_ranking_labels_left {
+	float: left;
+	margin-left: 6px;
+	width: 50px;
+}
+
+.feedback_category_ranking_labels_right {
+	float: right;
+	width: 50px;
+}
+
+.feedback_textarea {
+	width: 100%;
+	height: 155px;
+	resize: none;
+	border: 1px solid #E5E6E1;
+	margin-top: 10px;
+	padding: 15px;
+	font-family: Almoni;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.feedkback_send_btn_container {
+	margin-top: 25px;
+	display: block;
+	height: 10px;
+}
+
+.feedkback_send_btn {
+	font-family: Almoni;
+	background-color: #1e3867;
+	color: white;
+	text-align: center;
+	width: 105px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	float: left;
+	font-size: 16px;
+}

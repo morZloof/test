@@ -1,0 +1,46 @@
+.notebookNav{
+    height:35px;
+    width:50%;
+    position: fixed;
+    top: 133px;
+    left: 329px;
+    z-index: 1;
+}
+.notebookNav_map, .notebookNav_notebook, .notebookNav_war {
+    width: 103px;
+    height: 36px;
+    position: relative;
+    float:left;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: 400;
+	background:url('/www/images/notebooknav/passive.png');
+    color: #71969f;
+    cursor: pointer;
+}
+.notebookNav_active {
+	background:url('/www/images/notebooknav/active.png');
+    color: #1e798e;
+    
+}
+/* mentor level 10*/
+.notebookNav_mission10{
+    transform: rotate(-45deg);
+    font-size: 40px;
+    display: none;
+    position: absolute;
+    color: #f15a22;
+    top: -30px;
+    right:-15px;
+    z-index: 1;
+}
+.notebookNav_mission10_block{
+    height:100%;
+    width:200px;
+    display: none;
+    position:absolute;
+    left:0px;
+    z-index: 1000000;
+}

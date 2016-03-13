@@ -1,0 +1,38 @@
+.payment{
+	width:1014px;
+	height:733px;
+	margin-left:-507px;
+	margin-top:40px;
+	background: white;
+	position:relative;
+	float:left;
+	left:50%;
+	z-index: 1;
+}
+.payment_row{
+	width:100%;
+	margin-top:100px;
+	float:left;
+	position: relative;
+	float:left;
+	z-index: 2;
+}
+.payment_onePackage {
+	position: relative;
+	float:right;
+	margin-right: 10px;
+	margin-left: 20px;
+	text-align: right;
+}
+.payment_onePackage_btn {
+	width: 100px;
+	height: 20px;
+	background: black;
+	color:white;
+	text-align: center;
+	line-height: 20px;
+	vertical-align: middle;
+	position: relative;
+	float:right;
+	cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.notebookNav{
+    height:35px;
+    width:50%;
+    position: fixed;
+    top: 133px;
+    left: 329px;
+    z-index: 1;
+}
+.notebookNav_map, .notebookNav_notebook, .notebookNav_war {
+    width: 103px;
+    height: 36px;
+    position: relative;
+    float:left;
+    text-align: center;
+    line-height: 36px;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: 400;
+	background:url('/www/images/notebooknav/passive.png');
+    color: #71969f;
+    cursor: pointer;
+}
+.notebookNav_active {
+	background:url('/www/images/notebooknav/active.png');
+    color: #1e798e;
+    
+}

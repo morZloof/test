@@ -1,0 +1,296 @@
+.header {
+	width: 100%;
+	height: 60px;
+	background: #3C3C3B;
+	float: right;
+	color: #A9C60E;
+}
+
+.header_link a {
+	color: #A9C60E;
+	text-decoration: none;
+}
+
+.header_link:hover {
+	border-top: 4px solid #A9C60E;
+	line-height: 52px;
+}
+
+.header .active {
+	border-top: 4px solid #A9C60E;
+	line-height: 52px;
+	background-position: 1px 14px;
+}
+
+.header_container {
+	width: 960px;
+	margin: 0 auto;
+	font-size: 20px;
+	line-height: 60px;
+}
+
+.header_greeting {
+	color: white;
+	font-size: 16px;
+	float: right;
+	padding-top: 5px;
+	margin-left: 30px;
+}
+
+.header_dispute_main {
+	float: right;
+	margin-left: 30px;
+}
+
+.header_greeting_img {
+	float: right;
+	margin-left: 5px;
+	line-height: 70px;
+	position: relative;
+}
+
+.header_greeting_name {
+	float: right;
+}
+
+.header_greeting p {
+	line-height: 0px;
+}
+
+.header_dispute_platform {
+	float: right;
+	margin-left: 30px;
+}
+
+.header_messages {
+	cursor: pointer;
+	float: right;
+	margin-left: 30px;
+	background: url('../images/dispute/dispute_header_notifications.png');
+	background-position: 1px 18px;
+	background-repeat: no-repeat;
+	background-size: 27px;
+}
+
+.header_messages:hover {
+	background-position: 1px 14px;
+}
+
+.header_messages_count {
+	display: inline-block;
+	color: #3C3C3B;
+	text-align: center;
+	width: 28px;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.header_how_it_works {
+	float: right;
+	margin-left: 30px;
+}
+
+.header_qa {
+	float: right;
+	margin-left: 30px;
+}
+
+.header_logo {
+	float: left;
+	text-align: left;
+	padding-left: 5px;
+	color: white;
+	font-weight: bold;
+	background-image: url('../images/header/logo.png');
+	background-repeat: no-repeat;
+	background-position: left 10px;
+	padding-left: 50px;
+	font-size: 22px;
+	position:relative;
+	width: 60px;
+	height: 60px;
+}
+.header_logo_beta{
+	height:49px;
+	width:77px;
+	background-image: url('../images/header/beta.png');
+	position:absolute;
+	left:105px;
+}
+.header_small_font {
+	font-size: 15px;
+	line-height: 35px;
+	margin-left: 5px;
+	font-weight: normal;
+}
+
+.header_small_font sup {
+	font-size: 10px;
+}
+
+.header_logo p {
+	line-height: 0px;
+}
+
+.header_logout {
+	cursor: pointer;
+	color: #bfbfbf;
+	font-size: 12px;
+	font-family: Almoni;
+}
+
+.header_logout:hover {
+	color: white;
+}
+
+.header_greeting_name_logOut_goToLogin{
+	cursor: pointer;
+}
+
+.header_greeting_name_logOut_goToLogin:hover{
+	color: #A9C60E;
+}
+
+.header_fade {
+	display: none;
+	position: fixed;
+	top: 60px;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 10;
+}
+
+.header_profile_container {
+	background-color: white;
+	width: 285px;
+	position: absolute;
+	right: 0;
+	top: 55px;
+	z-index: 11;
+	display: none;
+	color: #393939;
+	font-family: 'Open Sans Hebrew', serif;
+	box-sizing: border-box;
+	padding: 15px;
+	line-height: initial;
+}
+
+.header_profile_title {
+	font-size: 16px;
+}
+
+.header_profile_subtitle {
+	font-size: 16px;
+	font-family: Almoni;
+	font-weight: bold;
+}
+
+.header_profile_email {
+	font-size: 14px;
+}
+
+.header_profile_change_password {
+	float: left;
+	font-size: 14px;
+}
+
+.header_profile_change_password a {
+	color: #03affe;
+}
+
+.header_profile_change_password a:hover {
+	text-decoration: underline;
+}
+
+.header_profile_divider {
+	margin-top: 15px;
+	border-bottom: 1px solid black;
+	margin-bottom: 15px;
+}
+
+.header_profile_active_disputes_dispute a {
+	color: #706f6f;
+	text-decoration: none;
+}
+
+.header_profile_active_disputes_dispute a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+.header_profile_active_disputes_dispute_to_enter {
+	display: none;
+	float: left;
+}
+
+.header_profile_active_disputes_dispute_to_enter span {
+	color: #03affe !important;
+	font-weight: normal;
+}
+
+.header_profile_active_disputes_dispute_to_enter .glyphicon-arrow-left {
+	font-size: 10px;
+}
+
+.header_profile_points, .header_profile_level, .header_profile_next_level {
+	margin-top: 15px;
+	float: right;
+	margin-left: 18px;
+	width: 65px;
+	height: 65px;
+	text-align: center;
+	position: relative;
+}
+.header_profile_next_level img{
+    width:100%;
+}
+.header_profile_level img{
+    width:100%;
+}
+.header_profile_points {
+	border: 2px solid #f9e300;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.header_profile_points_data {
+	line-height: 42px;
+	font-size: 42px;
+	font-family: Almoni;
+}
+
+.header_profile_points_label {
+	line-height: 5px;
+	font-size: 12px;
+}
+
+.header_profile_achivments_data {
+	color: #706f6f;
+	font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 15px;
+}
+
+.header_profile_achivments_data_points_bonus {
+	font-weight: bold;
+}
+
+.header_profile_next_level_label {
+	position: absolute;
+	width: 10px;
+	top: 20px;
+	left: 10px;
+	margin-left: 25px;
+	font-size: 12px;
+	text-align: center;
+}
+.header_shirut{
+	color:#00c300;
+	font-size:17px;
+	text-decoration: none;
+	position: absolute;
+	top:-20px;
+	left:5px;
+}

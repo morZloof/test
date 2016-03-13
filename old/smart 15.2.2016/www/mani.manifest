@@ -1,0 +1,34 @@
+CACHE MANIFEST
+# Update: 12
+
+CACHE:
+
+/www/images/bgElements/car.png
+/www/images/bgElements/dottedLines.png
+/www/images/bgElements/milion.png
+/www/images/bgElements/phones.png
+/www/images/bgElements/plant.png
+
+/www/images/clan/company.jpg
+/www/images/dashboard/background.jpg
+
+/www/images/header/keys.png
+/www/images/header/logo.png
+/www/images/header/money.png
+/www/images/header/star.png
+
+/www/images/mentor/jerusalem.jpg
+/www/images/mentor/telAviv.jpg
+/www/images/mentor/mentor.png
+/www/images/mentor/mentor1.png
+/www/images/mentor/mentorBody.png
+
+/www/images/runningTimes/numbers.png
+
+/www/images/search/businessman.png
+
+/www/images/upgrade/beSmarterPopUp.png
+/www/images/upgrade/upgradeBg.png
+
+NETWORK:
+*

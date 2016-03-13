@@ -1,0 +1,89 @@
+.mUsers{
+    width:100%;
+    float:left;
+}
+.mUsers_title{
+    width:100%;
+	text-align:center;
+	font-size:35px;
+	margin-top:30px;
+	float:left;
+}
+
+.mUsersHolder{
+    width:750px;
+    margin-top:30px;
+    margin-left: -375px;    
+    position: relative;
+    float:left;
+    left:50%;
+}
+.mUsers_brainstorm{
+    width:300px;
+    height:500px;
+    overflow: scroll;
+    border:1px rgb(200,200,200) solid;
+    padding:15px;
+    float:left;
+}
+.mUsers_brainstorm_title{
+    width:100%;
+    font-weight: bold;
+    text-align: center;
+    font-size:18px;
+    color:rgb(50,50,50);
+    float:left;
+}
+.mUsers_brainstormHolder{
+    width:100%;
+    margin-top:20px;
+    float:left;
+}
+.mUsers_brainstorm_box{
+    width:94%;
+    display: none;
+    cursor: pointer;
+    border:1px rgb(70,70,70) solid;
+    padding:3%;
+    margin-top:10px;
+    position: relative;
+    float:left;
+    transition:0.4s all;
+}
+.mUsers_brainstorm_box:hover{
+    border:1px black solid;
+}
+.mUsers_brainstorm_box:hover .mUsers_brainstorm_box_text{
+    color:black;
+}
+.mUsers_brainstorm_box_text{
+    width:100%;
+    font-size:17px;
+    color:rgb(70,70,70);
+    float:left;
+}
+
+/* users */
+.mUsers_users{
+    width:300px;
+    height:500px;
+    overflow: scroll;
+    border:1px rgb(200,200,200) solid;
+    padding:15px;
+    float:right;
+}
+.mUsers_users_rowHolder{
+    width:100%;
+    margin-top:20px;
+    float:left;
+}
+.mUsers_users_row{
+    width:100%;
+    float:left;
+}
+.mUsers_users_row span{
+    font-weight: bold;
+}
+.mUsers_users_rowSpace{
+    margin-top:30px;
+}

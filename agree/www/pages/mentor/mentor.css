@@ -1,0 +1,125 @@
+.mentor_title{
+	width:100%;
+	text-align:center;
+	font-size:35px;
+	margin-top:30px;
+	float:left;
+}
+.mentor_openAll{
+    width:220px;
+    border:1px black solid;
+    margin-left:-120px;
+    padding:5px;
+    position: absolute;
+    left:50%;
+    top:135px;
+}
+.mentor_open{
+    width:110px;
+    cursor: pointer;
+    text-align: center;
+    font-size:18px;
+    float:left;
+}
+.mentor_openActive{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.mentor_table1{
+    width:875px;
+    display: none;
+	border:1px black solid;
+	margin:50px 0px;
+	margin-left:-437.5px;
+	font-size:16px;
+	position: relative;
+	float:left;
+	left:50%;
+}
+.mentor_table{
+	width:1080px;
+	border:1px black solid;
+	margin-left:-540px;
+	font-size:16px;
+	margin-top:50px;
+	position: relative;
+	float:left;
+	left:50%;
+}
+.mentor_table2{
+    width:905px;
+	border:1px black solid;
+	font-size:16px;
+	margin-top:50px;
+	margin-left:-452.5px;
+	position: relative;
+	float:left;
+	left:50%;
+}
+.mentor_dispute_search, .mentor_dispute_search1{
+    height: 18px;
+    position: absolute;
+    top:-35px;
+}
+.mentor_table_row{
+	width:100%;
+	float:left;
+}
+.mentor_table_row_text, .mentor_table_row_text1{
+	width:150px;
+	padding:9px 0px;
+	font-weight: bold;
+	text-align: center;
+	border-right:1px rgb(200,200,200) solid;
+	float:right;
+}
+.mentor_table_row_text1{
+	width:174px;
+}
+.mentor_table_rowDown, .mentor_table_rowDown1, .mentor_table_rowDown2{
+	width:100%;
+	display: none;
+    cursor: pointer;
+	border-top:1px rgb(200,200,200) solid;
+	float:left;
+}
+.mentor_table_rowDown2{
+    cursor: default;
+}
+.mentor_table_rowDown_text_delete{
+    cursor: pointer;
+}
+.mentor_table_rowDown_text, .mentor_table_rowDown_text1{
+	width:150px;
+	padding:7px 0px;
+	text-align: center;
+	border-right:1px rgb(200,200,200) solid;
+	float:right;
+}
+.mentor_table_rowDown_text1{
+    width:174px;
+}
+.mentor_table_row_textFirst{
+	width:300px;	
+}
+.mentor_table_rowDown_textLast{
+	width:56px;
+}
+mentor_table_rowDown_textLast1{
+	width:90px;
+}
+.mentor_table_rowDown_text5{
+    cursor: pointer;
+}
+.mentor_dataAll{
+    width:1080px;
+    margin-left:-540px;
+    font-size:17px;
+    position: absolute;
+    float:left;
+    left:50%;
+    top:80px;
+}
+.mentor_data span{
+    font-weight: bold;
+}

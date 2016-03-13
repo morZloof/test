@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+body{
+	width: 100%;
+	height: 100%;
+	margin:0px;
+	font-family: 'Open Sans Hebrew', sans-serif;
+	background:url('images/dashboard/background.jpg');
+	background-size:cover;
+	background-position:center;
+}
+.leaflet-bottom{
+	display: none;
+}
+.global_row{
+	width:100%;
+	float:left;
+}
+.global_hide{
+	display:none;
+}
+.global_pagesFixed{
+	height:590px;
+	width: 100%;
+	/*-webkit-filter: blur(5px);*/
+	position: fixed;
+	float:left;
+	top:0;
+}
+.global_pagesHolder{
+	height:590px;
+	width: 100%;
+	position: relative;
+	float:left;
+	z-index:-11111111;
+}
